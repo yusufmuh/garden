@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/knowladge/progremming/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/knowladge/progremming/"}
 ---
 
 ---
