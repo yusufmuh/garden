@@ -1,5 +1,5 @@
 ---
-{"sticker":"lucide//curly-braces","dg-home":false,"dg-publish":true,"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":""}
+{"sticker":"lucide//curly-braces","dg-home":false,"dg-publish":true,"dg-note-icon":true,"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":true}
 ---
 
 ---
