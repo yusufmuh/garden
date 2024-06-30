@@ -18,7 +18,7 @@ Dari contoh pseudocode perhitungan rata-rata nilai berikut, buatlah **flowchart 
 **`END`**
 
 Dengan menggunakan **Pseudo-code dan flowchart**, buatlah:
-	- algoritma untuk menghitung luas segitiga!
+	- algoritma untuk **menghitung luas segitiga**!
 	- sebuah algoritma untuk mengubah detik menjadi satuan jam dan menit!
 	- sebuah algoritma untuk menerima tiga angka dan menemukan angka maks, min, dan rata-rata!
 	- algoritma untuk menghitung luas lingkaran!
