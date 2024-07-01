@@ -1,5 +1,5 @@
 ---
-{"sticker":"","dg-publish":true,"aliases":null,"permalink":"/knowladge/indonesia/","dgPassFrontmatter":true,"noteIcon":""}
+{"sticker":"emoji//1f324-fe0f","dg-publish":true,"aliases":null,"permalink":"/knowladge/indonesia/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ```widgets
