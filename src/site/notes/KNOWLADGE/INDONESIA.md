@@ -4,9 +4,13 @@
 
 ```widgets
 type: countdown
-date: 2024-07-01 20:08:20
-to: 2024-07-01
+date: 2024-07-02 10:00:00
+to: 2024-07-01 11:11:20
 ```
+---
+
+
+
 # FUNGSI dan RAGAM "BAHASA"
 ![[1. Fungsi dan Ragam Bahasa.pptx]]
 
