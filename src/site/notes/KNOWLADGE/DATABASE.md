@@ -7,6 +7,11 @@ type: countdown
 date: 2024-07-09 15:00:
 to: 2024-07-01 11:09:20
 ```
+---
+
+
+
+
 # :SiMicrosoftsqlserver: SQL Server Management
 
 #1_Introduction_to_Databases_and_The_Relational_Model 
