@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f324-fe0f","dg-publish":true,"aliases":["BAHASA"],"permalink":"/knowladge/bahasa/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-01T14:48:48.768+07:00"}
+{"sticker":"emoji//1f324-fe0f","dg-publish":true,"aliases":["BAHASA"],"permalink":"/knowladge/bahasa/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-01T16:40:12.740+07:00"}
 ---
 
 ```widgets
@@ -202,7 +202,29 @@ Sudut pandang juga ditandai dengan ***keberpihakan penulis dalam karangan***
 ---
 ## PLAGIARISME, TOPIK "KARANGAN ILMIAH" (L03/L04)
 ![[7. Plagiarisme dan Topik Karangan Ilmiah.pptx]]
-
+### PENGERTIAN PLAGIARISME:
+**- KBBI** : **penjiplakan** yang melanggar hak cipta
+**- Permendiknas nomor 17 Tahun 2010** : 
+    plagiat sebagai **perbuatan secara sengaja** atau **tidak sengaja** dalam memperoleh atau mencoba memperoleh *angka kredit atau nilai untuk suatu karya ilmiah*, dengan **mengutip sebagaian** atau **seluruh karya** dan/atau karya ilmiah ***pihak lain** **yang diakui sebagai karya ilmiahnya***, **tanpa menyatakan sumber** secara tepat dan memadai.
+### JENIS PLAGIARISME
+1. Plagiarisme ide
+2. Plagiarisme isi (data penelitian)
+3. Plagiarisme kata, kalimat, paragraf
+4. Plagiarisme total
+### BERDASARKAN KESENGAJAAN PLAGIARISME
+1. Plagiarisme yang disengaja
+2. Plagiarisme yang tidak disengaja
+### KLASIFIKASI PLAGIARISME
+1. Plagiarisme ringan : <20%
+2. Plagiarisme sedang : 20-40%
+3. Plagiarisme berat atau total : >40%
+### BENTUK PLAGIARISME
+1. struktur sumber
+   **penyalinan/penjiplakan struktur** suatu argument dari sebuah sumber
+2. ide
+   **penggunaan ulang suatu gagasan/pemikiran asli** dari sebuah sumber teks tanpa bergantung bentuk teks sumber.
+3. authorship
+   **pembubuhan nama sendiri** secara langsung pada hasil karya orang lain.
 
 ---
 ---
@@ -213,19 +235,141 @@ Sudut pandang juga ditandai dengan ***keberpihakan penulis dalam karangan***
 ---
 ## "ESAI AKADEMIK" (L03/L04)
 ![[9. Esai Akademik.pptx]]
+### PENGERTIAN ESAI:
+**- KBBI** : **karangan prosa** yang membahas *suatu masalah* secara sepintas lalu dari **sudut pandang pribadi** penulisnya. ([KBB](https://kbbi.kemdikbud.go.id/entri/esai)I)
+**- :** bentuk **tulisan lepas**, yang *lebih luas dari paragraf*, yang diarahkan untuk *mengembangkan ide* mengenai sebuah topik
+**- konteks akademis**, : **komposisi prosa singkat** yang mengekspresikan *opini penulis* tentang *subjek tertentu*.
+   - Bentuk esai dalam konteks akademis itu dikenal sebagai “esai formal” yang sering dipergunakan para pelajar, mahasiswa, dan peneliti untuk mengerjakan tugas-tugasnya.
+   - Esai formal bersifat “**serius**”, **berbobot, logis, dan lebih panjang**.
+### CIRI-CIRI ESAI AKADEMIK
+1. .Jumlah kata yang lazim dalam penulisan esai sebagai ***tugas kuliah adalah antara 300 - 600 kata*** untuk ***esai pendek dan lebih dari 600 kata***
+2. Struktur esai memiliki tiga bagian utama:  **pendahuluan, bagian intI, dan kesimpulan**
+3. Esai **tidak disusun** dalam **bab** dan **subbab**.
+### SISTEMATIKA ESAI AKADEMIK
+#### 1. Bagian Pendahuluan: 
+   sebuah esai berisikan identifikasi topik yang akan diangkat dengan memberikan **latar belakang** berupa penggambaran situasi atau kondisi terkini terkait topik tersebut
+   Penggambaran latar belakang ini beranjak dari penjelasan secara  umum ke arah yang lebih sempit. Pada titik ini juga dilakukan upaya menarik perhatian pembaca dengan menekankan mengapa topik tersebut penting untuk diangkat thesis statement
+#### 2. Bagian Inti:
+   berisikan bagian pengembangan ide yang dimuat dalam thesis statement. Pada bagian inilah isi utama tulisan dikupas dan dikembangkan sesuai dengan jenis esai yang ditulis.
+   Perlu diingat, pada bagian ini pengembangan ide dilakukan dengan cara menyampaikan pikiran utama yang kemudian dikemas dan diperkuat melalui satu atau  lebih kalimat pendukung. Pikiran utama yang dimunculkan tentunya sangat bergantung pada topik yang menjadi fokus penulisan
+#### 3. Bagian Kesimpulan: 
+   merupakan bagian tempat penulis melakukan penguatan terhadap topik yang telah dinyatakan pada thesis statement dan telah dibahas pada bagian inti esai. **Ringkasan pembahasan** pada umumnya menjadi penutup pada bagian ini.
 
+![Pasted image 20240701155257.png](/img/user/Pasted%20image%2020240701155257.png)
 
 ---
 ---
 ## "ARTIKEL ILMIAH" (L03/L04)
 ![[10. Artikel Ilmiah.pptx]]
+### PENGERTIAN ARTIKEL ILMIAH
+: **karya tulis** yang dirancang untuk **dimuat di *jurnal* atau *buku kumpulan artikel***, **ditulis dengan *tata cara ilmiah,*** **disesuaikan dengan *konvensi ilmiah* yang berlaku**.
+### Tujuan Pembuatan
+1. Menyampaikan gagasan,
+2. Memenuhi tugas dalam studi,
+3. Untuk mendiskusikan gagasan dalam suatu pertemuan,
+4. Mengikuti perlombaan,
+5. Serta untuk menyebarluaskan ilmu pengetahuan/hasil penelitian
+### CIRI-CIRI 
+- Struktur sajian Artikel ilmiah sangat ketat, biasanya **terdiri dari bagian awal (pendahuluan), bagian inti (pokok pembahasan), dan bagian penutup**.
+- Komponen karya ilmiah bervariasi sesuai dengan jenisnya, tetapi semua artikel ilmiah **mengandung pendahuluan, bagian inti, penutup, dan daftar pustaka**. Artikel ilmiah yang dimuat dalam ***jurnal*** mempersyaratkan adanya ***abstrak***.
+- Sikap penulis dalam artikel ilmiah adalah **objektif**, yang disampaikan dengan menggunakan **gaya bahasa impersonal**, dengan banyak menggunakan ***bentuk pasif***, tanpa menggunakan kata ganti orang pertama atau kedua.
+- Penggunaan bahasa yang digunakan dalam artikel ilmiah adalah **bahasa baku** yang tercermin dari pilihan kata/istilah, dan kalimat-kalimat yang efektif dengan struktur yang baku.
+
+![Pasted image 20240701151439.png](/img/user/Pasted%20image%2020240701151439.png)
+
+---
+### 1. Artikel ilmiah hasil penelitian
+   : merupakan **tulisan ilmiah** yang **berdasarkan penelitian**
+### Sistematika artikel ilmiah hasil penelitian
+#### 1. Bagian Pendahuluan: judul,abstrak, dan kata kunci
+#### 2. Bagian isi
+   **1. Permalasahan:** uraian ***permasalahan*** dan ***kajian teori*** yang relevan
+   **2. Metode penelitian:** ✔
+    Bagian ini berisi ***penjelasan kronologi penelitian***, termasuk ***perencanaan pegumpulan data, prosedur pengumpulan data, lokasi, dan subjek penelitian***.
+   **3. Hasil penelitian dan pembahasan:** ✔
+    Bagian ini berisi ***sampel data*** dan ***hasil analisisnya*** disertai penekanan pada jawaban terhadap masalah penelitian. Hasil dapat berupa data dalam bentuk gambar, diagram, table, dll yang diletakkan dalam bagian ini dan dideskripsikan. Pembahasan memuat penjelasan menggunakan sudut pandang peneliti yang dikuatkan sumber rujukan sebagai bentuk penekanan dan jawaban dari permasalahan yang dibahas.
+   **4. Simpulan dan saran:** 
+    Bagian ini berisi sebuah ***jawaban*** atau ***penjelasan*** terhadap masalah penelitian. Selain itu, bagian ini dapat juga ditambahkan prospek pengembangan dari penelitian dan pengaplikasian lebih lanjut pada penelitian selanjutnya.
+#### 3. Bagian penunjang: daftar rujukan
 
 
+### 2. Artikel Ilmiah Non-Penelitian (Berdasarkan Hasil pemikiran atau ide)
+   : merupakan **tulisan ilmiah** yang  membahas suatu masalah yang dikaji **berdasarkan pemikiran  penulisnya**
+### Sistematika artikel ilmiah Non-Penelitian
+#### 1. Bagian Pendahuluan: judul,abstrak, dan kata kunci
+#### 2. Bagian isi
+  **1. Permalasahan** 
+  **2. uraian teori** dan hal yang  dipermasalahkan, ✔
+  **3. uraian fakta** dari hal yang dipermasalahkan,  ✔
+  **4. diskusi** ✔
+  **5. kesimpulan serta saran**
+#### 3. Bagian penunjang: daftar rujukan
 ---
 ---
 ## "PROPOSAL PENELITIAN" (L03/L04)
 ![[11. Proposal Penelitian.pptx]]
+### Pengertian Proposal Penelitian
+**- Jauhari (dalam Dalman, 2016:178**) : suatu bentuk **pengajuan penawaran**, *baik berupa ide, gagasan, pemikiran, maupun rencana* kepada pihak lain untuk ***mendapatkan** dukungan, izin, persetujuan, dana, dan lain* sebagainya.
+### Tujuan Pengajuan Proposal
+1. Penelitian
+2. Mendirikan usaha
+3. Mengajukan tender
+4. Mengajukan kredit
+5. Mengadakan acara
+### Jenis-Jenis Proposal
+1. Proposal **bisnis** (proposal pendirian usaha)
+2. Proposal **proyek** (proposal pengajuan dana kepada lembaga donor)
+3. Proposal **penelitian** (proposal skripsi, proposal tesis, proposal disertasi)
+4. Proposal **kegiatan** (proposal kegiatan seminar, pelatihan, dan lomba)
+### menentukan topik dan judul penelitian
+   - Jangkaun peneliti terhadap topik (**Manageable topic**)
+   - Data topik mudah didapat (**Obtainable data**)
+   - Topik cukup penting untuk diteliti (**Significance of topic**)
+   - Topik menarik untuk diteliti (**Interested topik**) 
+### Sistematika Proposal Penelitian
+#### 1. Judul Penelitian
+   Judul penelitian hendaknya singkat, jelas, spesifik, dan sederhana.
+#### 2. Latar Belakang Penelitian
+   latar belakang berisikan **alasan dilakukannya penelitian** dengan menguraikan fakta dan informasi.Pada bagian ini menguraikan kesenjangan apa yang seharusnya dan apa yang terjadi di lapangan. Hendaknya diuraikan pentingnya penanganan masalah yang akan diajukan. Perlu juga disampaikan fakta-fakta yang mendukung dan penelitian terdahulu.
+#### 3. Identifikasi Masalah
+   Berisikan **rumusan masalah yang menjadi fokus dan dasar kajian penelitian**. Masalah yang dikemukakan dalam latar belakang masalah disimpulkan kembali pada bagian identifikasi masalah.
+#### 4. Perumusan Masalah
+   Permasalahan yang diusulkan pada bagian identifikasi masalah, dipilih dan ditentukan dalam rumusan masalah.  Rumusan masalah sebaiknya menggunakan kalimat tanya.
+#### 5. Tujuan Penelitan
+   berisi tujuan penelitian yang relevan dengan rumusan masalah atau menjadi jawaban dari rumusan masalah.
+#### 6. Manfaat Penelitain
+   Manfaat dari penelitian, **keuntungan yang akan didapat oleh pihak terkait**, atau inovasi yang akan dihasilkan dari penelitian yang dilakukan dikemukakan dalam bagian ini. Manfaat yang diperoleh dari penelitian tersebut bisa manfaat secara teoritis (teori) dan  manfaat praktis (praktik dalam kehidupan sehari-hari).
+#### 7. Tinjauan Pustaka
+   Berisi **teori-teori** yang relevan yang dapat digunakan untuk menjelaskan tentang variabel yang akan diteliti. Jumlah teori yang digunakan tergantung pada jumlah variabel yang diteliti.
+#### 8. Kerangka Berpikir dan Hipotesis
+   Kerangka berpikir adalah **dasar pemikiran penelitian yang disentesiskan dari fakta-fakta, observasi, dan telaah kepustakaan**. Menjelaskan hubungan antarvariabel penelitian. Apabila penelitian bersifat deskriptif, subjudul kerangka berpikir diganti dengan pendekatan masalah, yaitu menjelaskan berbagai kerangka teori yang dapat menjawab permasalahan penelitian.
+   **Hipotesis** merupakan ***jawaban sementara terhadap rumusan masalah yang diajukan*** oleh peneliti, dijabarkan dari landasan teori dan masih harus diuji kebenarannya.
 
+---
+### Metodologi Penelitian berisi:
+#### 1. Metodologi penelitian: 
+   berisikan uraian metode yang digunakan dalam penelitian (metode kuantitatif/ kualitatif/mix method). Jika data berupa angka, maka penelitiannya adalah kuantitaif. Jika data berupa narasi deskritpif maka penelitiannya adalah kualitatif.
+   Metode penelitian:
+	**- Kuantitatif:** data angka
+	**- Kualitatif:**  data deskriptif/ narasi
+	**- Mix method:** angka – deskriptif
+#### 2. Variabel penelitian/fokus penelitian: 
+   objek atau subjek yang diteliti. Variabel penelitian dipakai pada penelitian kuantitatif. Sementara fokus penelitian dipakai pada penelitian kualitatif.
+#### 3. Hipotesis penelitian (penelitian kuantitatif): 
+   berisikan jawaban sementara terhadap masalah-masalah yang menjadi variabel penelitian dengan menggunakan data/informasi yang dikumpulkan melalui sampel.
+#### 4. Populasi dan sampel penelitian: 
+   sebagian atau seluruh subjek penelitian.
+#### 5. Teknik pengumpulan data: 
+   berisikan teknik atau cara mengumpulkan data sebagai sumber data yang akan diteliti (wawancara/observasi/rubric penilaian/tes/dsb)
+   Teknik pengumpulan data: 
+    - **survey, 
+    - kuisoner.**
+#### 6. Teknik analisis data : 
+   berisikan teknik atau cara menganalisis data yang diperoleh dari hasil pengumpulan data dan penelitian. Teknik analisis data bisanya menggunakan uji statistik
+   Data : 
+    - **baik, 
+    - kurang baik 
+    - angka**
 
 ---
 ---
@@ -238,6 +382,43 @@ Sudut pandang juga ditandai dengan ***keberpihakan penulis dalam karangan***
 
 ---
 ### Ciri-Ciri Karya Ilmiah
+#### 1. Struktur
+   Struktur sajian karya ilmiah biasanya terdiri dari **bagian awal, bagian inti, dan bagian penutup**. Bagian awal merupakan ***pengantar*** ke bagian inti, sedangkan inti merupakan ***sajian gagasan pokok*** yang ingin disampaikan.
+#### 2. Komponen dan Substansi
+   Komponen karya ilmiah bervariasi sesuai dengan jenisnya, tetapi semua karya ilmiah mengandung **pendahuluan, bagian inti, penutup, dan daftar pustaka**. *Artikel ilmiah yang dimuat dalam **jurnal** mempersyaratkan adanya **abstrak***.
+#### 3. Sikap penulis
+   Sikap penulis dalam karya ilmiah adalah **objektif**, yang *disampaikan* dengan menggunakan kata atau gaya *bahasa impersonal*, dengan banyak menggunakan ***bentuk pasif***, *tanpa menggunakan kata ganti orang pertama dan kedua*.
+#### 4. Penggunaan Bahasa
+   Bahasa yang digunakan dalam karya ilmiah adalah **bahasa baku** yang tercermin dari pilihan kata atau istilah, dan kalimat-kalimat yang efektif dengan struktur yang baku.
+![Pasted image 20240701145735.png](/img/user/Pasted%20image%2020240701145735.png)
+
+---
+### Sistematika Karangan Ilmiah Populer
+#### 1. Paragraf pembuka
+   Bertujuan untuk menjelaskan **batasan apa yang hendak diuraikan penulis** dalam keseluruhan karangan.
+#### 2. Paragraf pengembang
+   Bertujuan untuk menjelaskan dan menguraikan **tesis yang dijelaskan dalam paragraf pembuka**. Semakin banyak paragraf pengembang, semakin jelas dan tuntas pembahasan dalam esai. Beberapa teknik yang digunakan untuk membuat paragraf pengembang ialah ***kutipan, statistik, contoh, perbandingan, pengalaman, kontras***.
+#### 3. Paragraf penutup
+   Berisi **simpulan dari uraian yang ditulis dalam paragraf pengembang**
+   
+---
+### Tahapan Penulisan Karya Ilmiah Populer
+#### - Persiapan
+1. Mengumpulkan informasi
+2. Merumuskan masalah
+3. Menentukan fokus
+4. Mengamati
+#### - Inkubasi
+1. Pemprosesan informasi yang dimiliki penulis
+2. Kemungkinan pemecahan masalah
+#### - Iluminasi
+1. Penemuan inspirasi
+2. Penemuan gagasan
+3. Pemecahan masalah
+#### - Verifikasi
+1. Pemeriksaan kembali temuan-temuan
+2. Penyeleksian
+3. Penyusunan sesuai dengan fokus  tulisan
 
 ---
 ---
