@@ -1,10 +1,10 @@
 ---
-{"sticker":"lucide//database-backup","dg-publish":true,"dg-home":true,"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":""}
+{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:23:33.881+07:00","updated":"2024-07-01T11:33:18.415+07:00"}
 ---
 
 ```widgets
 type: countdown
-date: 2024-07-09 15:00:
+date: 2024-07-09 15:00:00
 to: 2024-07-01 11:09:20
 ```
 ---
@@ -12,7 +12,7 @@ to: 2024-07-01 11:09:20
 
 
 
-# :SiMicrosoftsqlserver: SQL Server Management
+#  SQL Server Management
 
 #1_Introduction_to_Databases_and_The_Relational_Model 
 #2_Normalization
