@@ -1,5 +1,5 @@
 ---
-{"sticker":"lucide//database-backup","dg-publish":true,"permalink":"/knowladge/database/","dgPassFrontmatter":true,"noteIcon":""}
+{"sticker":"lucide//database-backup","dg-publish":true,"dg-home":true,"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ```widgets
