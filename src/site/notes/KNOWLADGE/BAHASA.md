@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f324-fe0f","dg-publish":true,"aliases":["BAHASA"],"permalink":"/knowladge/bahasa/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-01T16:50:46.073+07:00"}
+{"sticker":"emoji//1f324-fe0f","dg-publish":true,"aliases":["BAHASA"],"permalink":"/knowladge/bahasa/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-01T17:42:09.079+07:00"}
 ---
 
 ```widgets
@@ -256,7 +256,7 @@ Sudut pandang juga ditandai dengan ***keberpihakan penulis dalam karangan***
    - Bentuk esai dalam konteks akademis itu dikenal sebagai “esai formal” yang sering dipergunakan para pelajar, mahasiswa, dan peneliti untuk mengerjakan tugas-tugasnya.
    - Esai formal bersifat “**serius**”, **berbobot, logis, dan lebih panjang**.
 ### CIRI-CIRI ESAI AKADEMIK
-1. .Jumlah kata yang lazim dalam penulisan esai sebagai ***tugas kuliah adalah antara 300 - 600 kata*** untuk ***esai pendek dan lebih dari 600 kata***
+1. Jumlah kata yang lazim dalam penulisan esai sebagai ***tugas kuliah adalah antara 300 - 600 kata*** untuk ***esai pendek dan lebih dari 600 kata***
 2. Struktur esai memiliki tiga bagian utama:  **pendahuluan, bagian intI, dan kesimpulan**
 3. Esai **tidak disusun** dalam **bab** dan **subbab**.
 ### SISTEMATIKA ESAI AKADEMIK
