@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f324-fe0f","dg-publish":true,"aliases":["BAHASA"],"permalink":"/knowladge/bahasa/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-01T16:40:12.740+07:00"}
+{"sticker":"emoji//1f324-fe0f","dg-publish":true,"aliases":["BAHASA"],"permalink":"/knowladge/bahasa/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-01T16:50:46.073+07:00"}
 ---
 
 ```widgets
@@ -230,6 +230,20 @@ Sudut pandang juga ditandai dengan ***keberpihakan penulis dalam karangan***
 ---
 ## PENGUTIPAN, DAFTAR PUSTAKA (L03)
 ![[8. Teknik Pengutipan dan Penyusunan Daftar Pustaka.pptx]]
+### KUTIPAN
+#### –Kutipan langsung : 
+   pernyataan yang ditulis dalam susunan kalimat aslinya **tanpa mengalami perubahan sedikitpun**.
+   Dibagi menjadi dua:
+   ##### 1. Kutipan langsung pendek
+   ##### 2. Kutipan langsung panjang
+#### –Kutipan tidak langsung : 
+   pernyataan yang ditulis tidak sama persis dengan aslinya. Artinya, penulis mengubah struktur kalimatnya, tetapi maksudnya masih sama.
+   Dibagi menjadi dua:
+   ##### 1. Kutipan langsung pendek
+   ##### 2. Kutipan langsung panjang
+![Pasted image 20240701165008.png](/img/user/Pasted%20image%2020240701165008.png)
+### PENULISAN SUMBER REFERENSI
+
 
 ---
 ---
