@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f324-fe0f","dg-publish":true,"aliases":["BAHASA"],"permalink":"/knowladge/bahasa/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-01T11:47:27.279+07:00"}
+{"sticker":"emoji//1f324-fe0f","dg-publish":true,"aliases":["BAHASA"],"permalink":"/knowladge/bahasa/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-01T12:05:50.113+07:00"}
 ---
 
 ```widgets
@@ -13,6 +13,27 @@ to: 2024-07-01 11:11:20
 
 ## FUNGSI dan RAGAM "BAHASA"
 ![[1. Fungsi dan Ragam Bahasa.pptx]]
+- **Bahasa** : ***sistem lambang bunyi*** yang arbitrer, yang digunakan oleh suatu masyarakat untuk bekerja sama, berinteraksi, dan mengidentifikasi diri.
+- **arbitrer** bermakna ***tidak adanya hubungan** wajib antara **lambang bahasa*** (yang berwujud bunyi) dengan ***konsep*** atau pengertian yang dimaksud oleh lambang tersebut.
+### FUNGSI BAHASA
+- Bahasa sebagai sarana
+	1. komunikasi
+	2. integrasi dan adaptasi
+	3. kontrol sosial
+	4. memahami diri
+	5. ekspresi diri
+	6. memahami orang lain
+	7. mengamati  lingkungan sekitar
+	8. berpikir logis
+	9. menciptakan kreativitas baru
+- Bahasa membangun
+	1. kecerdasan
+	2. karakter
+- Bahasa mengembangkan 
+	1. kecerdasan ganda
+	2. profesi
+
+
 
 ## SEJARAH, KEDUDUKAN, FUNGSI "BI"
 ![[2. Sejarah, Kedudukan, dan Fungsi BI.pptx]]

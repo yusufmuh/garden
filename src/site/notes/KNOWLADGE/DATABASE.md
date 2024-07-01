@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:23:33.881+07:00","updated":"2024-07-01T11:33:18.415+07:00"}
+{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:23:33.881+07:00","updated":"2024-07-01T11:49:29.040+07:00"}
 ---
 
 ```widgets
@@ -10,9 +10,9 @@ to: 2024-07-01 11:09:20
 ---
 
 
+# 🗄SQL SERVER
 
-
-#  SQL Server Management
+## SQL Server Management
 
 #1_Introduction_to_Databases_and_The_Relational_Model 
 #2_Normalization
@@ -28,14 +28,14 @@ to: 2024-07-01 11:09:20
 #12_Database_Environment_Architectures 
 #13_Data_Warehousing_Concepts
 
-# EXECPT
-# GRANT
-# REVOKE
-# VIEW
-# IN
-# EXISTS
-## SUB QUERY
-## AGREGATION
+## EXECPT
+## GRANT
+## REVOKE
+## VIEW
+## IN
+## EXISTS
+### SUB QUERY
+### AGREGATION
 Represents a "has-a"
-# DBMS Architectures
-# DATA WAREHOUSE
+## DBMS Architectures
+## DATA WAREHOUSE
