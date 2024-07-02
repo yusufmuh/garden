@@ -1,7 +1,6 @@
 ---
-{"sticker":"lucide//code-2","dg-publish":true,"aliases":["JAVA"],"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-01T11:43:25.022+07:00"}
+{"sticker":"lucide//code-2","dg-publish":true,"aliases":["JAVA"],"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-02T07:27:32.860+07:00"}
 ---
-
 
 ```widgets
 type: countdown
@@ -15,7 +14,7 @@ to: 2024-07-01 11:10:50
 
 
 # ☕ JAVA
-
+#UAS 
 ## INTRO ALGORITMA
 
 #1_Introduction_to_Algorithm 
