@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f6a9","dg-publish":true,"permalink":"/knowladge/materi/indonesia-uas/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-02T07:21:11.048+07:00","updated":"2024-07-02T08:37:19.332+07:00"}
+{"sticker":"emoji//1f6a9","dg-publish":true,"permalink":"/knowladge/materi/indonesia-uas/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-02T07:21:11.048+07:00","updated":"2024-07-02T08:39:06.902+07:00"}
 ---
 
 #UAS 
@@ -40,11 +40,13 @@
 	   
 Komunikasi interpersonal adalah proses pertukaran pesan yang berlangsung secara langsung antara dua individu atau lebih, yang memungkinkan tanggapan langsung dari penerima pesan. Menurut Cangara (2010) dan West & Turner (2008), komunikasi ini merupakan kunci keberhasilan dalam berbagai interaksi sosial, termasuk dalam konteks kebugaran. Komunikasi yang efektif antara instruktur dan anggota fitness sangat penting untuk menyampaikan program latihan, memberikan motivasi, dan edukasi kepada anggota.   
 Rumusan masalah dalam penelitian ini meliputi: 1) Apa itu komunikasi interpersonal? 2) Mengapa komunikasi interpersonal penting? 3) Apa perbedaan komunikasi interpersonal dengan intrapersonal dan impersonal? Tujuan penelitian ini adalah untuk menjawab pertanyaan tersebut dan memahami lebih dalam tentang komunikasi interpersonal.
-## **LANDASAN** **TEORI**
+
+---
+## **LANDASAN TEORI**
 	   Pengertian Komunikasi Interpersonal Ada beberapa pengertian komunikasi interpersonal yang dikemukakan oleh para ahli komunikasi, diantaranya DeVito menyatakan: “interpersonal communication is defined as communication that takes place  between  two  persons  who  have  a  clearly  established  relationship;  the  people  are  in  some  way connected.” (DeVito, 1992:11). Komunikasi  interpersonal  secara umum  adalah  komunikasi  antara  orang-orang  secara  tatap muka,  masing-masing  orang  yang  terlibat  dalam  komuniasi  tersebut  saling  mempengaruhi  persepsi lawan  komunikasinya.  Bentuk  khusus  komunikasi  interpersonal  ini  adalah  komunikasi  diadik.  DeVito berpendapat  bahwa  komunikasi  interpersonal  adalah  komunikasi  yang  terjadi  diantara  dua  orang  yang telah  memiliki  hubungan  yang  jelas,  yang  terhubungkan  dengan  beberapa  cara.  Jadi  komunikasi interpersonal misalnya komunikasi yang terjadi antara ibu dengan anak, dokter dengan pasien, dua orang.
-Komunikasi interpersonal adalah interaksi yang berlangsung secara langsung antara dua individu yang memiliki hubungan tertentu. Menurut DeVito (1992), komunikasi ini melibatkan pertukaran pesan yang mempengaruhi persepsi masing-masing pihak. Bentuk komunikasi ini sangat penting dalam berbagai konteks, termasuk dalam hubungan antara ibu dan anak, dokter dan pasien, atau instruktur dan anggota fitness.
+   Komunikasi interpersonal adalah interaksi yang berlangsung secara langsung antara dua individu yang memiliki hubungan tertentu. Menurut DeVito (1992), komunikasi ini melibatkan pertukaran pesan yang mempengaruhi persepsi masing-masing pihak. Bentuk komunikasi ini sangat penting dalam berbagai konteks, termasuk dalam hubungan antara ibu dan anak, dokter dan pasien, atau instruktur dan anggota fitness.
 
-
+---
 ## **Rumusan** **masalah?**
 - Apa itu komunikasi interpersonal **?**
 - **Mengapa** komunikasi interpersonal ***penting*** **?**
@@ -111,7 +113,7 @@ Penelitian kualitatif berfokus pada pemahaman mendalam tentang fenomena sosial a
 - **Literature Review:** **Menganalisis dan merangkum temuan** dari berbagai penelitian sebelumnya.
     - **Cara Menggunakan:** ***Kumpulkan artikel jurnal, buku, laporan penelitian***, evaluasi kualitas dan relevansi sumber, sintesis temuan untuk memberikan gambaran menyeluruh tentang topik.
     - **Contoh:** Review literatur tentang metode pembelajaran online dan dampaknya terhadap hasil belajar siswa.
-
+---
 ## **APA edisi 7**
    Menulis daftar pustaka dengan gaya APA edisi ke-7 membutuhkan format tertentu tergantung pada jenis sumber yang Anda rujuk. Berikut adalah panduan untuk berbagai jenis sumber:
 ### **Buku**
@@ -174,6 +176,8 @@ American Psychological Association. (n.d.). *APA style guidelines*. https://www.
 5. World Health Organization. (2019). *Global tuberculosis report 2019*. https://www.who.int/tb/publications/global_report/en/
 
 Dengan mengikuti panduan ini, Anda dapat membuat daftar pustaka dengan format yang benar sesuai gaya APA edisi ke-7.
+
+---
 # LO 4 Presentasi akademik
 
 Nilai diambil dari tugas presentasi artikel ilmiah.
