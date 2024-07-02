@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f324-fe0f","dg-publish":true,"aliases":["BAHASA"],"permalink":"/knowladge/bahasa/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-02T07:20:59.924+07:00"}
+{"sticker":"emoji//1f324-fe0f","dg-publish":true,"aliases":["BAHASA"],"permalink":"/knowladge/bahasa/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-02T09:15:34.593+07:00"}
 ---
 
 ```widgets
@@ -237,7 +237,7 @@ Sudut pandang juga ditandai dengan ***keberpihakan penulis dalam karangan***
    ##### 1. Kutipan langsung pendek
    ##### 2. Kutipan langsung panjang
 #### –Kutipan tidak langsung : 
-   pernyataan yang ditulis tidak sama persis dengan aslinya. Artinya, penulis mengubah struktur kalimatnya, tetapi maksudnya masih sama.
+   pernyataan yang ditulis **tidak sama persis dengan aslinya**. Artinya, penulis mengubah struktur kalimatnya, tetapi maksudnya masih sama.
    Dibagi menjadi dua:
    ##### 1. Kutipan langsung pendek
    ##### 2. Kutipan langsung panjang
