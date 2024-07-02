@@ -1,5 +1,5 @@
 ---
-{"sticker":"lucide//code-2","dg-publish":true,"aliases":["JAVA"],"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-02T20:03:21.211+07:00"}
+{"sticker":"lucide//code-2","dg-publish":true,"aliases":["JAVA"],"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-03T04:46:00.103+07:00"}
 ---
 
 ```widgets
@@ -15,8 +15,8 @@ to: 2024-07-01 11:10:50
 
 # ☕ JAVA
 #UAS 
-## INTRO ALGORITMA
 
+---
 #1_Introduction_to_Algorithm 
 Dari contoh pseudocode perhitungan rata-rata nilai berikut, buatlah **flowchart dan Diagram NS**
 **`BEGIN`**
@@ -35,36 +35,225 @@ Dengan menggunakan **Pseudo-code dan flowchart**, buatlah:
 	- sebuah algoritma untuk menerima tiga angka dan menemukan angka maks, min, dan rata-rata!
 	- algoritma untuk menghitung luas lingkaran!
 	- algoritma untuk menghitung keliling persegi panjang!
-
+	
+---
 #2_Introduction_to_Java_Programming 
 1. Jelaskan tentang  library  di java!
+		Library dalam Java adalah **kumpulan kelas, metode, dan sumber daya lain** yang sudah ditulis sebelumnya dan dapat digunakan untuk melakukan tugas-tugas pemrograman umum. Library menyediakan cara untuk menggunakan kembali kode dan mempercepat proses pengembangan dengan menyediakan fungsionalitas standar yang dapat dengan mudah diintegrasikan ke dalam aplikasi. **Library Java biasanya dikemas dalam file JAR (Java ARchive).**
+	**Contoh Library Java yang Umum:**
+	1. **Java Standard Library:** Bagian dari JDK, termasuk library untuk struktur data, jaringan, file I/O, pengembangan GUI, dll.
+	2. **Apache Commons:** Menyediakan komponen Java yang dapat digunakan kembali, seperti koleksi, utilitas file, dan banyak lagi.
+	3. **Google Guava:** Menawarkan utilitas untuk koleksi, caching, dukungan primitif, dan banyak lagi.
+	4. **JUnit:** Digunakan untuk pengujian unit di Java.
 
-2. Tentukan aturan yang dapat digunakan untuk **create identifier**
+2. Tentukan aturan yang dapat digunakan untuk **create identifier** (Aturan untuk Membuat Identifier dalam Java)
+	**Identifier** adalah nama yang diberikan untuk elemen-elemen dalam program Java seperti variabel, kelas, dan metode. Aturan untuk membuat identifier adalah:
+	1. Identifier dapat berisi huruf (a-z, A-Z), digit (0-9), underscore (_), dan tanda dolar ($).
+	2. Identifier harus dimulai dengan huruf, underscore (_), atau tanda dolar ($).
+	3. Identifier tidak boleh dimulai dengan digit.
+	4. Identifier tidak boleh menggunakan kata kunci Java (misalnya, `int`, `class`, `static`).
+	5. Identifier bersifat case-sensitive (misalnya, `MyVariable` dan `myVariable` adalah berbeda).
+	**Contoh:**
+	- Valid: `myVariable`, `_temp`, `$value`, `mainMethod`
+	- Tidak Valid: `1stVariable`, `class`, `staticVar`
 
-3. Apa fungsi function of keywords di java:
-	**1. static:** 
-	**2. final:** 
-	**3. class:** 
-	**4. package:** 
-4. Jelaskan penggunaan **“String[] args ”** di ***public static void main***!
+1. Apa fungsi **function of keywords** di java:
+- **static:** 
+		**:** Menunjukkan bahwa anggota (field atau metode) milik kelas, bukan instance dari kelas. Anggota static dapat diakses tanpa membuat objek dari kelas.
+```java
+public class MyClass {
+    static int counter = 0; // Static field
 
-1. Apa itu **JVM, JDK, source program, compiler**?
+    static void incrementCounter() { // Static method
+        counter++;
+    }
+}
+```
+- **final:**
+		**:** Digunakan untuk mendeklarasikan konstanta, mencegah overriding metode, dan pewarisan kelas. Ketika variabel dideklarasikan sebagai `final`, nilainya tidak dapat diubah.
+```java
+public class MyClass {
+    final int MAX_VALUE = 100; // Final variable
+
+    final void display() { // Final method
+        System.out.println("Metode ini tidak dapat di-overridden");
+    }
+}
+
+final class MyFinalClass { // Final class
+    // Kelas ini tidak dapat diwariskan
+}
+```
+- **class:** 
+		**:** Digunakan untuk ***mendeklarasikan kelas***, yang merupakan cetak biru untuk objek. Kelas mendefinisikan field dan metode yang dapat digunakan oleh objek yang dibuat dari kelas.
+```java
+public class MyClass {
+    int myField;
+
+    void myMethod() {
+        System.out.println("Hello, World!");
+    }
+}
+```
+- **package:** 
+		**:** Digunakan untuk ***mengelompokkan kelas*** dan antarmuka yang terkait ke dalam namespace, menyediakan modularitas dan organisasi pada kode. Package juga membantu menghindari konflik nama.
+```java
+package com.example.myapp;
+
+public class MyClass {
+    // Definisi kelas
+}
+```
+
+1. Jelaskan penggunaan **“String[] args ”** di ***public static void main***!
+	Penggunaan `String[] args` dalam `public static void main`
+		`String[] args` adalah **array objek** `String` yang menyimpan argumen baris perintah yang diteruskan ke program saat dijalankan. Argumen ini memungkinkan program dijalankan dengan input yang berbeda tanpa mengubah kode sumber.
+```java
+public class MainClass {
+    public static void main(String[] args) {
+        if (args.length > 0) {
+            System.out.println("Argumen pertama: " + args[0]);
+        } else {
+            System.out.println("Tidak ada argumen yang diteruskan.");
+        }
+    }
+}
+```
+
+2. Apa itu **JVM, JDK, source program, compiler**?
+	**1. JVM (Java Virtual Machine)**
+	- **Deskripsi:** Mesin virtual yang **mengeksekusi bytecode Jav**a. JVM memungkinkan program Java menjadi platform-independen dengan menyediakan lingkungan eksekusi yang konsisten pada perangkat atau sistem operasi apa pun.
+	- **Fungsi:** Menjalankan program Java dan menyediakan fitur seperti ***garbage collection, manajemen memori, dan keamanan**.*
+
+	**2. JDK (Java Development Kit)**
+	- **Deskripsi:** ***Kit pengembangan perangkat lunak*** yang diperlukan untuk mengembangkan aplikasi Java. JDK mencakup JRE (Java Runtime Environment), interpreter/loader (Java), compiler (javac), archiver (jar), generator dokumentasi (javadoc), dan alat lain yang diperlukan untuk pengembangan Java.
+	- **Fungsi:** Menyediakan alat untuk ***mengkompilasi, debug, dan menjalankan aplikasi Jav***a.
+
+	**3. Program Sumber**
+	- **Deskripsi:** ***Kode asli*** yang ditulis oleh programmer dalam bahasa pemrograman tingkat tinggi seperti Java. Kode ini dapat dibaca oleh manusia dan perlu dikompilasi menjadi bytecode atau kode mesin untuk dieksekusi.
+	- **Contoh:** File `.java` yang berisi kode Java.
+
+	**4. Compiler**
+	- **Deskripsi:** Program yang ***menerjemahkan kode sumber*** yang ditulis dalam ***bahasa pemrograman tingkat tinggi*** menjadi ***bytecode*** atau kode mesin. Dalam Java, compiler (javac) mengonversi file `.java` menjadi file `.class` yang berisi bytecode Java.
+	- **Fungsi:** Memeriksa sintaksis kode sumber dan ***mengonversinya ke format yang dapat dieksekusi oleh JVM***.
 
 ---
-#3_Data_Type_and_Input/Output
-
-
-
 ---
 #4_BASIC_CLASS 
-
-
+1. Does any ***method** in the String class* **change the contents of the string**?
+		Tidak, **tidak ada metode dalam kelas `String` yang mengubah isi string** karena objek `String` bersifat immutable (tidak dapat diubah). Setiap metode yang tampaknya mengubah string sebenarnya mengembalikan string baru dengan hasil perubahan.
+2. Create a program to determine whether a character is **alphanumeric?**
+```java
+public class AlphanumericCheck {
+    public static void main(String[] args) {
+        char ch = 'a'; // Ganti dengan karakter yang ingin dicek
+        boolean isAlphanumeric = Character.isLetterOrDigit(ch);
+        
+        if (isAlphanumeric) {
+            System.out.println(ch + " adalah karakter alfanumerik.");
+        } else {
+            System.out.println(ch + " bukan karakter alfanumerik.");
+        }
+    }
+}
+```
+3. Create a program to determine whether a character is in **lowercase or uppercase**?
+```java
+public class CaseCheck {
+    public static void main(String[] args) {
+        char ch = 'A'; // Ganti dengan karakter yang ingin dicek
+        
+        if (Character.isLowerCase(ch)) {
+            System.out.println(ch + " adalah huruf kecil.");
+        } else if (Character.isUpperCase(ch)) {
+            System.out.println(ch + " adalah huruf besar.");
+        } else {
+            System.out.println(ch + " bukan huruf kecil maupun besar.");
+        }
+    }
+}
+```
+4. Describe how to *convert* **hexadecimal to decimal**?
+	Untuk mengkonversi angka hexadecimal ke desimal, Anda dapat menggunakan langkah-langkah berikut:
+	1. Tuliskan angka hexadecimal.
+	2. Mulai dari digit paling kanan, kalikan setiap digit dengan 16 pangkat posisi digit (dimulai dari 0).
+	3. Jumlahkan semua hasil kali tersebut untuk mendapatkan nilai desimal.
+	Contoh: Hexadecimal "1A3"
+		- 3 * (16^0) = 3
+		- A (yang setara dengan 10 dalam desimal) * (16^1) = 160
+		- 1 * (16^2) = 256
+		- Jumlahkan hasilnya: 3 + 160 + 256 = 419 (Desimal)
+		
+5. Evaluate the following method calls:
+	- Math.**pow**(2,2)
+		- Hasil: 4.0
+	- Math.**max**(2, Math.**min**(3,4))
+		- Hasil: 3
+	- Math.**round**(2.5F)
+		- Hasil: 3
+	- Math.**ceil**(-9.49)
+		- Hasil: -9.0
+	- Math.**floor**(7.5)
+		- Hasil: 7.0
+		
+1. Describe and give example for each **method of String**
+	**- contains**
+		- : Memeriksa apakah suatu string mengandung urutan karakter tertentu.
+		`- String str = "Hello, world!"; 
+		`- boolean result = str.contains("world");` // result is true
+	**- concat**
+		- **:** Menggabungkan string yang ditentukan ke akhir string saat ini.
+		`- String str1 = "Hello, ";` 
+		`- String str2 = "world!";` 
+		`- String result = str1.concat(str2);` // result is "Hello, world!"
+	**- compareTo**
+		- **:** Membandingkan dua string secara leksikografis.
+		`- String str1 = "apple";`
+		`- String str2 = "banana";`
+		`- int result = str1.compareTo(str2);` // result is negative because "apple" is less than "banana"
+	**- format**
+		- **:** Mengembalikan string yang diformat menggunakan format string dan argumen yang ditentukan.
+		`- String name = "John";`
+		`- int age = 25;`
+		`- String formattedString = String.format("Name: %s, Age: %d", name, age);` // result is "Name: John, Age: 25"
+	**- charAt**
+		- **:** Mengembalikan karakter pada indeks yang ditentukan.
+		`- String str = "Hello";`
+		`- char result = str.charAt(1);` // result is 'e'
+	**- replace**
+		- **:** Mengganti setiap substring dari string ini yang cocok dengan urutan target literal dengan urutan penggantian literal yang ditentukan.
+		`- String str = "Hello, world!";`
+		`- String result = str.replace("world", "Java");` // result is "Hello, Java!"
+	**- substing**
+		- **:** Mengembalikan string baru yang merupakan substring dari string ini.
+		`- String str = "Hello, world!";
+		`- String result = str.substring(7, 12);` // result is "world"
+	**- trim**
+		- **:** Mengembalikan string yang nilainya adalah string ini, dengan menghapus spasi di awal dan akhir.
+		`- String str = "   Hello, world!   ";`
+		`- String result = str.trim();` // result is "Hello, world!"
+	**- toCharArray**
+		- **:** Mengonversi string ini ke array karakter baru.
+		`- String str = "Hello";`
+		`- char[] result = str.toCharArray();` // result is ['H', 'e', 'l', 'l', 'o']
+	**- split**
+		- **:** Membagi string ini di sekitar kecocokan ekspresi reguler yang diberikan.
+		`- String str = "apple,banana,orange";`
+		`- String[] result = str.split(",");` // result is ["apple", "banana", "orange"]
+	**- toLowerCase**
+		- **:** Mengonversi semua karakter dalam string ini ke huruf kecil menggunakan aturan lokal default.
+		`- String str = "Hello, World!";`
+		`- String result = str.toLowerCase();` // result is "hello, world!"
+	**- toUpperCase**
+		- **:** Mengonversi semua karakter dalam string ini ke huruf besar menggunakan aturan lokal default.
+		`- String str = "Hello, World!";`
+		`- String result = str.toUpperCase();` // result is "HELLO, WORLD!"
 
 ---
 #5_Arithmetic_Operation
-1. Can different types of numeric values be used together in computation?
-	  Ya, tipe nilai numerik yang berbeda dapat digunakan bersama dalam perhitungan. Dalam Java, ketika operasi aritmatika melibatkan tipe data yang berbeda (misalnya, `int` dan `double`), Java akan melakukan konversi tipe (type casting) secara otomatis untuk memastikan operasi tersebut dilakukan dengan benar.
-2. Assume that int a = 1 and double d = 1.0 and that each expression is independent. What are the results of the following expressions?
+1. Can **different types of numeric values** be ***used together*** in computation?
+	  Ya, **tipe nilai numerik yang berbeda** dapat ***digunakan bersama*** dalam perhitungan. Dalam Java, ketika operasi aritmatika melibatkan tipe data yang berbeda (misalnya, `int` dan `double`), Java akan melakukan konversi tipe (type casting) secara otomatis untuk memastikan operasi tersebut dilakukan dengan benar.
+2. Assume that ***int*** **a = 1** and ***double*** **d = 1.0** and that each expression is independent. What are the results of the following expressions?
 	**a = 46 % 9 + 4 * 4 – 2**
 	- `46 % 9` adalah 1 (sisa pembagian 46 dengan 9)
 	- `4 * 4` adalah 16
@@ -82,7 +271,7 @@ Dengan menggunakan **Pseudo-code dan flowchart**, buatlah:
 	- `a %= 3` sama dengan `a = a % 3` yaitu `48 % 3` adalah 0
 	- Hasil: `a = 0`
 	**d += 1.5 * 3 + (++a)**  (dengan `a` sekarang adalah 0 dan `d` adalah 1.0):
-	- `++a` adalah `1` (pre-increment `a` dari 0 menjadi 1)
+	- `++a` adalah `1` (**pre-increment** `a` dari 0 **menjadi 1**)
 	- `1.5 * 3` adalah 4.5
 	- Jadi, ekspresi menjadi `d += 4.5 + 1` yang sama dengan `d += 5.5` yaitu `1.0 + 5.5` sama dengan 6.5
 	- Hasil: `d = 6.5`
@@ -172,6 +361,7 @@ char c = (char) i;
 4. `char c = (char) 97;` menghasilkan `c = 'a'`.
 
 ---
+#3_Data_Type_and_Input/Output
 #6_Logic_and_Relational_Operation
 1. Assuming that x is 1, show the result of the following Boolean expressions.
 	 **(true) && (3 > 4)** 
