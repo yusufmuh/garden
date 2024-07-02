@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f324-fe0f","dg-publish":true,"aliases":["BAHASA"],"permalink":"/knowladge/bahasa/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-01T17:42:09.079+07:00"}
+{"sticker":"emoji//1f324-fe0f","dg-publish":true,"aliases":["BAHASA"],"permalink":"/knowladge/bahasa/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-02T07:20:59.924+07:00"}
 ---
 
 ```widgets
@@ -8,7 +8,7 @@ date: 2024-07-02 10:00:00
 to: 2024-07-01 11:11:20
 ```
 ---
-
+#UAS
 # 🚩 INDONESIA
 
 ## FUNGSI dan RAGAM "BAHASA" (L01)
