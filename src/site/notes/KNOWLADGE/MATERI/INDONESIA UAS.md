@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f6a9","dg-publish":true,"permalink":"/knowladge/materi/indonesia-uas/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-02T07:21:11.048+07:00","updated":"2024-07-02T08:31:51.380+07:00"}
+{"sticker":"emoji//1f6a9","dg-publish":true,"permalink":"/knowladge/materi/indonesia-uas/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-02T07:21:11.048+07:00","updated":"2024-07-02T08:37:19.332+07:00"}
 ---
 
 #UAS 
@@ -36,13 +36,15 @@
 ## **Kata Kunci:** 
    Komunikasi interpersonal, instruktur fitness, gaya hidup sehat.
 ## **PENDAHULUAN**
-	   <p align="justify">Komunikasi  interpersonal  merupakan  proses  komunikasi  yang  berlangsung  antara  dua  orang atau  lebih  secara  bertatap  muka  dimana  pengirim  dapat  menyampaikan  pesan  secara  langsung  dan penerima pesan dapat menerima dan menanggapi secara langsung (Cangara, 2010). Menurut West and Turner  (2008)  komunikasi  interpersonal  atau  komunikasi  antarpribadi  merujuk  pada  komunikasi  yang terjadi  secara  langsung  antara  dua  orang.  Komunikasi  interpersonal  merupakan  komunikasi  yang dilakukan  oleh  individuuntuk  saling  bertukar  gagasan  ataupun  pemikiran  kepada  individu  lainnya (Hanani, 2017). Komunikasi interpersonal yang dilakukan oleh instruktur dan anggota fitness merupakan salah  satu  kunci  keberhasilan  gaya  hidup  sehat.  Bentuk  komunikasi  ini  dapat  berupa  konsultasi,  tanya jawab,  program  dan  pola  latihan  hingga  motivasi  serta  edukasi  terhadap  para  membernya.  Oleh  sebab seberapa  intens  dan  efektif  suatu  komunikasi  dapat  dibangun  sangatlah  penting  bagi  seorang  personal trainer atau instruktur dengan anggotanya agar pesan yang disampaikan dapat berjalan dengan lancar. Adapun rumusan masalah yang dapat penulis ambil yaitu :1.Apa itu komunikasi interpersonal?2.Apakah komunikasi interpersonal itu penting?3.Apa perbedaan komunikasi interpersonal dengan intrapersonal, dan imprapersonal.Adapun tujuan penulisan untuk membahasas satu persatu dari rumusan masalah diatas.</p>
+	Komunikasi  interpersonal  merupakan  proses  komunikasi  yang  berlangsung  antara  dua  orang atau  lebih  secara  bertatap  muka  dimana  pengirim  dapat  menyampaikan  pesan  secara  langsung  dan penerima pesan dapat menerima dan menanggapi secara langsung (Cangara, 2010). Menurut West and Turner  (2008)  komunikasi  interpersonal  atau  komunikasi  antarpribadi  merujuk  pada  komunikasi  yang terjadi  secara  langsung  antara  dua  orang.  Komunikasi  interpersonal  merupakan  komunikasi  yang dilakukan  oleh  individuuntuk  saling  bertukar  gagasan  ataupun  pemikiran  kepada  individu  lainnya (Hanani, 2017). Komunikasi interpersonal yang dilakukan oleh instruktur dan anggota fitness merupakan salah  satu  kunci  keberhasilan  gaya  hidup  sehat.  Bentuk  komunikasi  ini  dapat  berupa  konsultasi,  tanya jawab,  program  dan  pola  latihan  hingga  motivasi  serta  edukasi  terhadap  para  membernya.  Oleh  sebab seberapa  intens  dan  efektif  suatu  komunikasi  dapat  dibangun  sangatlah  penting  bagi  seorang  personal trainer atau instruktur dengan anggotanya agar pesan yang disampaikan dapat berjalan dengan lancar. Adapun rumusan masalah yang dapat penulis ambil yaitu :1.Apa itu komunikasi interpersonal?2.Apakah komunikasi interpersonal itu penting?3.Apa perbedaan komunikasi interpersonal dengan intrapersonal, dan imprapersonal.Adapun tujuan penulisan untuk membahasas satu persatu dari rumusan masalah diatas.
 	   
-   <p align="justify">   Komunikasi interpersonal adalah proses pertukaran pesan yang berlangsung secara langsung antara dua individu atau lebih, yang memungkinkan tanggapan langsung dari penerima pesan. Menurut Cangara (2010) dan West & Turner (2008), komunikasi ini merupakan kunci keberhasilan dalam berbagai interaksi sosial, termasuk dalam konteks kebugaran. Komunikasi yang efektif antara instruktur dan anggota fitness sangat penting untuk menyampaikan program latihan, memberikan motivasi, dan edukasi kepada anggota. 
-    Rumusan masalah dalam penelitian ini meliputi: 1) Apa itu komunikasi interpersonal? 2) Mengapa komunikasi interpersonal penting? 3) Apa perbedaan komunikasi interpersonal dengan intrapersonal dan impersonal? Tujuan penelitian ini adalah untuk menjawab pertanyaan tersebut dan memahami lebih dalam tentang komunikasi interpersonal.</p>
+Komunikasi interpersonal adalah proses pertukaran pesan yang berlangsung secara langsung antara dua individu atau lebih, yang memungkinkan tanggapan langsung dari penerima pesan. Menurut Cangara (2010) dan West & Turner (2008), komunikasi ini merupakan kunci keberhasilan dalam berbagai interaksi sosial, termasuk dalam konteks kebugaran. Komunikasi yang efektif antara instruktur dan anggota fitness sangat penting untuk menyampaikan program latihan, memberikan motivasi, dan edukasi kepada anggota.   
+Rumusan masalah dalam penelitian ini meliputi: 1) Apa itu komunikasi interpersonal? 2) Mengapa komunikasi interpersonal penting? 3) Apa perbedaan komunikasi interpersonal dengan intrapersonal dan impersonal? Tujuan penelitian ini adalah untuk menjawab pertanyaan tersebut dan memahami lebih dalam tentang komunikasi interpersonal.
 ## **LANDASAN** **TEORI**
-	   <p align="justify">Pengertian Komunikasi Interpersonal Ada beberapa pengertian komunikasi interpersonal yang dikemukakan oleh para ahli komunikasi, diantaranya DeVito menyatakan: “interpersonal communication is defined as communication that takes place  between  two  persons  who  have  a  clearly  established  relationship;  the  people  are  in  some  way connected.” (DeVito, 1992:11). Komunikasi  interpersonal  secara umum  adalah  komunikasi  antara  orang-orang  secara  tatap muka,  masing-masing  orang  yang  terlibat  dalam  komuniasi  tersebut  saling  mempengaruhi  persepsi lawan  komunikasinya.  Bentuk  khusus  komunikasi  interpersonal  ini  adalah  komunikasi  diadik.  DeVito berpendapat  bahwa  komunikasi  interpersonal  adalah  komunikasi  yang  terjadi  diantara  dua  orang  yang telah  memiliki  hubungan  yang  jelas,  yang  terhubungkan  dengan  beberapa  cara.  Jadi  komunikasi interpersonal misalnya komunikasi yang terjadi antara ibu dengan anak, dokter dengan pasien, dua orang.</p>
-<p align="justify">   Komunikasi interpersonal adalah interaksi yang berlangsung secara langsung antara dua individu yang memiliki hubungan tertentu. Menurut DeVito (1992), komunikasi ini melibatkan pertukaran pesan yang mempengaruhi persepsi masing-masing pihak. Bentuk komunikasi ini sangat penting dalam berbagai konteks, termasuk dalam hubungan antara ibu dan anak, dokter dan pasien, atau instruktur dan anggota fitness.</p>
+	   Pengertian Komunikasi Interpersonal Ada beberapa pengertian komunikasi interpersonal yang dikemukakan oleh para ahli komunikasi, diantaranya DeVito menyatakan: “interpersonal communication is defined as communication that takes place  between  two  persons  who  have  a  clearly  established  relationship;  the  people  are  in  some  way connected.” (DeVito, 1992:11). Komunikasi  interpersonal  secara umum  adalah  komunikasi  antara  orang-orang  secara  tatap muka,  masing-masing  orang  yang  terlibat  dalam  komuniasi  tersebut  saling  mempengaruhi  persepsi lawan  komunikasinya.  Bentuk  khusus  komunikasi  interpersonal  ini  adalah  komunikasi  diadik.  DeVito berpendapat  bahwa  komunikasi  interpersonal  adalah  komunikasi  yang  terjadi  diantara  dua  orang  yang telah  memiliki  hubungan  yang  jelas,  yang  terhubungkan  dengan  beberapa  cara.  Jadi  komunikasi interpersonal misalnya komunikasi yang terjadi antara ibu dengan anak, dokter dengan pasien, dua orang.
+Komunikasi interpersonal adalah interaksi yang berlangsung secara langsung antara dua individu yang memiliki hubungan tertentu. Menurut DeVito (1992), komunikasi ini melibatkan pertukaran pesan yang mempengaruhi persepsi masing-masing pihak. Bentuk komunikasi ini sangat penting dalam berbagai konteks, termasuk dalam hubungan antara ibu dan anak, dokter dan pasien, atau instruktur dan anggota fitness.
+
+
 ## **Rumusan** **masalah?**
 - Apa itu komunikasi interpersonal **?**
 - **Mengapa** komunikasi interpersonal ***penting*** **?**
@@ -58,14 +60,17 @@
 - Manfaatnya apa?
 - Untuk siapa?
 - Judul yang sesuai?
+---
 ## **METODE PENELITIAN:**
 1. **Jenis Metode:** Studi literatur dan observasi.
 2. **Teknik Pengumpulan Data:** Membaca jurnal ilmiah, buku, dan sumber informasi online.
 3. **Teknik Analisis Data:** Analisis konten dari sumber yang dikumpulkan untuk memastikan keakuratan data.
-<p align="justify">Contoh:
-Metode  Pengumpulan  data  yang  digunakan  dalam  penelitian  ini  adalah  **Studi  literatur**,  yaitu dengan  cara  **membaca  atau  mengambil  informasi  dari  jurnal  ilmiah,  buku  dan  juga  memanfaatkan internet  sebagai  sumber  informasi**.  Studi literatur  dilakukan  untuk mempelajari  teori-teori  yang  berkaitan dengan penelitian, sehingga data yang akan dikumpulkan untuk dianalisis lebih akurat</p>
+
+Contoh:
+Metode  Pengumpulan  data  yang  digunakan  dalam  penelitian  ini  adalah  **Studi  literatur**,  yaitu dengan  cara  **membaca  atau  mengambil  informasi  dari  jurnal  ilmiah,  buku  dan  juga  memanfaatkan internet  sebagai  sumber  informasi**.  Studi literatur  dilakukan  untuk mempelajari  teori-teori  yang  berkaitan dengan penelitian, sehingga data yang akan dikumpulkan untuk dianalisis lebih akurat
+
 ### 1. Penelitian Kualitatif
-<p align="justify">Penelitian kualitatif berfokus pada pemahaman mendalam tentang fenomena sosial atau perilaku manusia melalui data non-numerik</p>
+Penelitian kualitatif berfokus pada pemahaman mendalam tentang fenomena sosial atau perilaku manusia melalui data non-numerik
 **Contoh Metode:**
 - **Studi Kasus:** Meneliti satu atau beberapa **kasus** dalam konteks tertentu.
     - **Cara Menggunakan:** Pilih kasus unik atau representatif, ***kumpulkan data melalui wawancara, observasi, dan dokumen, analisis data*** untuk memahami kompleksitas kasus.
@@ -78,7 +83,7 @@ Metode  Pengumpulan  data  yang  digunakan  dalam  penelitian  ini  adal
     - **Contoh:** Penelitian tentang pengalaman pasien kanker menghadapi diagnosis.
 
 ### 2. Penelitian Kuantitatif
-<p align="justify">Penelitian kuantitatif menggunakan data numerik untuk menguji hipotesis atau hubungan antar variabel melalui analisis statistik.</p>
+   Penelitian kuantitatif menggunakan data numerik untuk menguji hipotesis atau hubungan antar variabel melalui analisis statistik
 **Contoh Metode:**
 - **Eksperimen:** Mengontrol **variabel independen** untuk melihat efeknya terhadap **variabel dependen.**
     - **Cara Menggunakan:** Rancang **eksperimen** dengan kelompok kontrol dan perlakuan, kumpulkan data sebelum dan sesudah intervensi, analisis data dengan statistik inferensial.
@@ -91,7 +96,7 @@ Metode  Pengumpulan  data  yang  digunakan  dalam  penelitian  ini  adal
     - **Contoh:** Hubungan antara waktu belajar dan nilai akademik siswa.
 
 ### 3. Penelitian Campuran (Mixed Methods)
-<p align="justify">Penelitian campuran menggabungkan elemen kualitatif dan kuantitatif untuk memberikan pemahaman yang lebih komprehensif.</p>
+   Penelitian campuran menggabungkan elemen kualitatif dan kuantitatif untuk memberikan pemahaman yang lebih komprehensif.
 **Contoh Metode:**
 - **Desain Eksplanatori:** **Memulai** dengan penelitian **kuantitatif**, **diikuti** dengan **kualitatif** untuk menjelaskan hasil kuantitatif.
     - **Cara Menggunakan:** Kumpulkan data kuantitatif, analisis hasil, lanjutkan dengan wawancara mendalam untuk menjelaskan temuan.
@@ -101,14 +106,14 @@ Metode  Pengumpulan  data  yang  digunakan  dalam  penelitian  ini  adal
     - **Contoh:** Studi tentang kebutuhan pendidikan di daerah terpencil, diikuti dengan survei untuk mengukur kebutuhan tersebut di populasi yang lebih besar.
 
 #### 4. Studi Literatur
-<p align="justify">Studi literatur mengumpulkan dan menganalisis data dari berbagai sumber tertulis untuk mengembangkan pemahaman tentang suatu topik.</p>
+   Studi literatur mengumpulkan dan menganalisis data dari berbagai sumber tertulis untuk mengembangkan pemahaman tentang suatu topik.
 **Contoh:**
 - **Literature Review:** **Menganalisis dan merangkum temuan** dari berbagai penelitian sebelumnya.
     - **Cara Menggunakan:** ***Kumpulkan artikel jurnal, buku, laporan penelitian***, evaluasi kualitas dan relevansi sumber, sintesis temuan untuk memberikan gambaran menyeluruh tentang topik.
     - **Contoh:** Review literatur tentang metode pembelajaran online dan dampaknya terhadap hasil belajar siswa.
 
 ## **APA edisi 7**
-<p align="justify">Menulis daftar pustaka dengan gaya APA edisi ke-7 membutuhkan format tertentu tergantung pada jenis sumber yang Anda rujuk. Berikut adalah panduan untuk berbagai jenis sumber:</p>
+   Menulis daftar pustaka dengan gaya APA edisi ke-7 membutuhkan format tertentu tergantung pada jenis sumber yang Anda rujuk. Berikut adalah panduan untuk berbagai jenis sumber:
 ### **Buku**
 #### **Format:**
 \[Penulis\]. \[(Tahun)\]. \[Judul buku\]. \[Penerbit\].
