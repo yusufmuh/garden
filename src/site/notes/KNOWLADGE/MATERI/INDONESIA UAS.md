@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f6a9","dg-publish":true,"permalink":"/knowladge/materi/indonesia-uas/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-02T07:21:11.048+07:00","updated":"2024-07-02T08:39:06.902+07:00"}
+{"sticker":"emoji//1f6a9","dg-publish":true,"permalink":"/knowladge/materi/indonesia-uas/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-02T07:21:11.048+07:00","updated":"2024-07-02T08:39:52.730+07:00"}
 ---
 
 #UAS 
