@@ -1,5 +1,5 @@
 ---
-{"sticker":"lucide//code-2","dg-publish":true,"aliases":["JAVA"],"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-03T04:46:00.103+07:00"}
+{"sticker":"lucide//code-2","dg-publish":true,"aliases":["JAVA"],"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-03T04:48:59.709+07:00"}
 ---
 
 ```widgets
@@ -38,7 +38,7 @@ Dengan menggunakan **Pseudo-code dan flowchart**, buatlah:
 	
 ---
 #2_Introduction_to_Java_Programming 
-1. Jelaskan tentang  library  di java!
+1. Jelaskan tentang **library** di java!
 		Library dalam Java adalah **kumpulan kelas, metode, dan sumber daya lain** yang sudah ditulis sebelumnya dan dapat digunakan untuk melakukan tugas-tugas pemrograman umum. Library menyediakan cara untuk menggunakan kembali kode dan mempercepat proses pengembangan dengan menyediakan fungsionalitas standar yang dapat dengan mudah diintegrasikan ke dalam aplikasi. **Library Java biasanya dikemas dalam file JAR (Java ARchive).**
 	**Contoh Library Java yang Umum:**
 	1. **Java Standard Library:** Bagian dari JDK, termasuk library untuk struktur data, jaringan, file I/O, pengembangan GUI, dll.
