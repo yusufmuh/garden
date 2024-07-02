@@ -1,5 +1,5 @@
 ---
-{"sticker":"lucide//code-2","dg-publish":true,"aliases":["JAVA"],"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-02T16:13:17.414+07:00"}
+{"sticker":"lucide//code-2","dg-publish":true,"aliases":["JAVA"],"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-02T20:03:21.211+07:00"}
 ---
 
 ```widgets
@@ -48,12 +48,19 @@ Dengan menggunakan **Pseudo-code dan flowchart**, buatlah:
 	**4. package:** 
 4. Jelaskan penggunaan **“String[] args ”** di ***public static void main***!
 
-5. Apa itu **JVM, JDK, source program, compiler**?
+1. Apa itu **JVM, JDK, source program, compiler**?
 
+---
 #3_Data_Type_and_Input/Output
 
+
+
+---
 #4_BASIC_CLASS 
 
+
+
+---
 #5_Arithmetic_Operation
 1. Can different types of numeric values be used together in computation?
 	  Ya, tipe nilai numerik yang berbeda dapat digunakan bersama dalam perhitungan. Dalam Java, ketika operasi aritmatika melibatkan tipe data yang berbeda (misalnya, `int` dan `double`), Java akan melakukan konversi tipe (type casting) secara otomatis untuk memastikan operasi tersebut dilakukan dengan benar.
@@ -81,11 +88,88 @@ Dengan menggunakan **Pseudo-code dan flowchart**, buatlah:
 	- Hasil: `d = 6.5`
 
 3. Are the following statements correct? If so, show the output.
-		System.out.println(“25 / 4 is “ + 25 / 4); 
-		System.out.println(“25 / 4.0 is “ + 25 / 4.0);
-		System.out.println(“3 * 2 / 4 is “ + 3 * 2 / 4);
-		System.out.println(“3.0 * 2 / 4 is “ + 3.0 * 2 / 4);
+	**System.out.println(“25 / 4 is “ + 25 / 4);** 
+		 `25 / 4` adalah 6 (pembagian bilangan bulat)
+	     Output: `25 / 4 is 6`
+	**System.out.println(“25 / 4.0 is “ + 25 / 4.0);**
+			`25 / 4.0` adalah 6.25 (pembagian melibatkan bilangan `double`)
+			Output: `25 / 4.0 is 6.25`
+	**System.out.println(“3 * 2 / 4 is “ + 3 * 2 / 4);**
+			`3 * 2` adalah 6
+			`6 / 4` adalah 1 (pembagian bilangan bulat)
+			Output: `3 * 2 / 4 is 1`
+	**System.out.println(“3.0 * 2 / 4 is “ + 3.0 * 2 / 4);**
+			`3.0 * 2` adalah 6.0
+			`6.0 / 4` adalah 1.5 (pembagian melibatkan bilangan `double`)
+			Output: `3.0 * 2 / 4 is 1.5`
+ **Ringkasan Hasil Evaluasi:**
+	1. **`a = 46 % 9 + 4 * 4 - 2`** -> `a = 15`
+	2. **`a = 45 + 43 % 5 * (23 * 3 % 2)`** -> `a = 48`
+	3. **`a %= 3 / a + 3`** -> `a = 0`
+	4. **`d += 1.5 * 3 + (++a)`** -> `d = 6.5`
+**Output Pernyataan:**
+	1. `System.out.println("25 / 4 is " + 25 / 4);` -> `25 / 4 is 6`
+	2. `System.out.println("25 / 4.0 is " + 25 / 4.0);` -> `25 / 4.0 is 6.25`
+	3. `System.out.println("3 * 2 / 4 is " + 3 * 2 / 4);` -> `3 * 2 / 4 is 1`
+	4. `System.out.println("3.0 * 2 / 4 is " + 3.0 * 2 / 4);` -> `3.0 * 2 / 4 is 1.5`
+	
+4. Identify and fix the errors in the following code:
+![Pasted image 20240702194329.png](/img/user/Pasted%20image%2020240702194329.png)
+	1. Variabel `i` dideklarasikan tetapi tidak diinisialisasi, yang akan menyebabkan kesalahan kompilasi.
+	2. Variabel `k` diinisialisasi dengan nilai double, tetapi dideklarasikan sebagai integer.
+	3. Mencoba melakukan aritmatika dengan variabel `i` yang belum diinisialisasi saat menginisialisasi `j`.
+Berikut adalah versi kode yang telah diperbaiki:
+```java
+public class Test {
+    public static void main(String[] args) {
+        int i = 0;  // Inisialisasi i
+        double k = 100.0;  // Ubah k menjadi double
+        int j = i + 1;  // j = i + 1 valid sekarang karena i telah diinisialisasi
 
+        System.out.println("j is " + j + " and k is " + k);
+    }
+}
+```
+Ringkasan perbaikan:
+	1. Menginisialisasi `i` dengan 0.
+	2. Mengubah tipe `k` dari `int` ke `double` agar sesuai dengan nilai yang diberikan `100.0`.
+	3. Sekarang `i` telah diinisialisasi, penugasan ke `j` menjadi valid.
+
+5. Can the following conversions involving casting be allowed? If so, find the converted result.
+![Pasted image 20240702195834.png](/img/user/Pasted%20image%2020240702195834.png)
+```java
+char c = 'A';
+int i = (int) c;
+```
+- `c` diberi nilai karakter 'A'.
+- Casting `c` ke `int` menghasilkan nilai ASCII dari 'A', yaitu 65.
+- Hasil: `i` akan menjadi 65.
+```java
+float f = 1000.34F;
+int i = (int) f;
+```
+- `f` diberi nilai float 1000.34.
+- Casting `f` ke `int` menghasilkan pemotongan bagian desimal, sehingga `i` akan menjadi 1000.
+- Hasil: `i` akan menjadi 1000.
+```java
+double d = 1000.34;
+int i = (int) d;
+```
+- `d` diberi nilai double 1000.34.
+- Casting `d` ke `int` menghasilkan pemotongan bagian desimal, sehingga `i` akan menjadi 1000.
+- Hasil: `i` akan menjadi 1000.
+```java
+int i = 97;
+char c = (char) i;
+```
+- `i` diberi nilai integer 97.
+- Casting `i` ke `char` menghasilkan karakter yang sesuai dengan nilai ASCII 97, yaitu 'a'.
+- Hasil: `c` akan menjadi 'a'.
+**Ringkasan hasil:**
+1. `int i = (int) 'A';` menghasilkan `i = 65`.
+2. `int i = (int) 1000.34F;` menghasilkan `i = 1000`.
+3. `int i = (int) 1000.34;` menghasilkan `i = 1000`.
+4. `char c = (char) 97;` menghasilkan `c = 'a'`.
 
 ---
 #6_Logic_and_Relational_Operation
