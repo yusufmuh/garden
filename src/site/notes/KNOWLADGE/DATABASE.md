@@ -95,7 +95,13 @@ FROM table2;
 
 **Contoh Penggunaan:**
 - Misalkan kita memiliki dua tabel `employees` dan `managers`, dan kita ingin mencari semua karyawan yang bukan manajer.
-    `SELECT employee_id FROM employees EXCEPT SELECT manager_id FROM managers;`
+```SQL
+SELECT employee_id 
+FROM employees EXCEPT 
+SELECT manager_id 
+FROM managers
+```
+    
 - Mengembalikan semua baris dari query pertama yang tidak ada dalam hasil dari query kedua.
 ```SQL
 SELECT employee_id FROM Employees 
@@ -106,10 +112,24 @@ SELECT manager_id FROM Managers;
 
 ### Perbedaan dengan NOT EXISTS dan NOT IN:
 - EXCEPT vs. NOT EXISTS :
-    `SELECT columns FROM table1 t1 WHERE NOT EXISTS (SELECT 1 FROM table2 t2 WHERE t1.common_column = t2.common_column);`
+```SQL
+SELECT columns 
+FROM table1 t1 
+WHERE NOT EXISTS 
+	(SELECT 1 
+	FROM table2 t2 
+	WHERE t1.common_column = t2.common_column)
+```
+    
 - EXCEPT vs. NOT IN :
-    `SELECT columns FROM table1 WHERE common_column NOT IN (SELECT common_column FROM table2);`
-
+```SQL
+SELECT columns 
+FROM table1 
+WHERE common_column 
+NOT IN (SELECT common_column 
+		FROM table2)
+```
+    
 ---
 #9_Security_and_Administration #UAS_Database
 ![[S 9_10 Lab Security and Administration.ppt]]
@@ -129,16 +149,21 @@ TO user [, user...];
 
 **Contoh Penggunaan GRANT:**
 - Memberikan izin SELECT dan INSERT pada tabel `Employees` kepada pengguna `john_doe`.
-    `GRANT SELECT, INSERT ON Employees TO john_doe;`
+```SQL
+GRANT SELECT, INSERT ON Employees TO john_doe
+```
     
 - Memberikan semua izin pada tabel `Departments` kepada pengguna `admin`.
-    `GRANT ALL PRIVILEGES ON Departments TO admin;`
+```SQL
+GRANT ALL PRIVILEGES ON Departments TO admin
+```
     
 ### Opsi WITH GRANT OPTION:
 - Menambahkan opsi `WITH GRANT OPTION` memungkinkan penerima izin untuk memberikan izin yang sama kepada pengguna lain.
-    `GRANT SELECT ON Employees TO john_doe WITH GRANT OPTION;`
+```SQL
+GRANT SELECT ON Employees TO john_doe WITH GRANT OPTION
+```
     
-
 ## **4) REVOKE**
 ### Pengertian REVOKE:
 - REVOKE adalah perintah dalam SQL yang digunakan untuk **mencabut izin yang telah diberika**n kepada pengguna atau peran.
@@ -153,10 +178,16 @@ FROM user [, user...];
     
 **Contoh Penggunaan REVOKE:**
 - Mencabut izin SELECT pada tabel `Employees` dari pengguna `john_doe`.
-    `REVOKE SELECT ON Employees FROM john_doe;`
+```SQL
+REVOKE SELECT ON Employees 
+FROM john_doe
+```
     
 - Mencabut **semua izin** pada tabel `Departments` dari pengguna `admin`.
-    `REVOKE ALL PRIVILEGES ON Departments FROM admin;`
+```SQL
+REVOKE ALL PRIVILEGES ON Departments 
+FROM admin
+```
     
 ### Opsi CASCADE dan RESTRICT:
 - **CASCADE:** ***Menghapus izin yang diberikan kepada pengguna lain*** oleh pengguna yang izinnya dicabut.
@@ -196,7 +227,13 @@ WHERE condition;
 ```
     
 **Contoh pembuatan VIEW:**
-    `CREATE VIEW EmployeeView AS SELECT employee_id, name, department_id FROM Employees WHERE department_id = 101;`
+```SQL
+CREATE VIEW EmployeeView 
+AS 
+SELECT employee_id, name, department_id 
+FROM Employees 
+WHERE department_id = 101
+```
     
 ### Manfaat Menggunakan VIEW:
 - **Abstraksi Data:** Menyembunyikan kompleksitas query dari pengguna.
@@ -206,11 +243,19 @@ WHERE condition;
 
 ### Modifikasi VIEW:
 - VIEW dapat dimodifikasi menggunakan perintah `CREATE OR REPLACE VIEW` atau dengan menghapus dan membuat kembali VIEW.
-    `CREATE OR REPLACE VIEW EmployeeView AS SELECT employee_id, name, department_id, salary FROM Employees WHERE department_id = 101;`
+```SQL
+CREATE OR REPLACE VIEW EmployeeView 
+AS 
+SELECT employee_id, name, department_id, salary 
+FROM Employees 
+WHERE department_id = 101
+```
     
 ### Menghapus VIEW:
 - VIEW dapat dihapus menggunakan perintah `DROP VIEW`:
-    `DROP VIEW view_name;`
+```SQL
+DROP VIEW view_name
+```
     
 **Contoh Penggunaan VIEW:**
 - Misalkan kita memiliki tabel `Employees` dan `Departments`, kita dapat membuat VIEW untuk menampilkan informasi karyawan yang hanya berasal dari departemen tertentu.
@@ -223,12 +268,12 @@ WHERE condition;
 CREATE VIEW HR_Employees AS
 SELECT employee_id, name, salary
 FROM Employees
-WHERE department_id = 101;
+WHERE department_id = 101
 ```
 **4. Menggunakan VIEW:**
 - Menggunakan VIEW untuk mengambil data karyawan dari departemen HR
 ```SQL
-SELECT * FROM HR_Employees;
+SELECT * FROM HR_Employees
 ```
 ![Pasted image 20240704110339.png](/img/user/Pasted%20image%2020240704110339.png)
 Gambar tersebut menunjukkan bagaimana VIEW `HR_Employees` dibuat dari tabel `Employees`, yang hanya menampilkan karyawan dari departemen HR. Dengan menggunakan VIEW, kita dapat menyederhanakan query dan membatasi akses ke data tertentu untuk tujuan keamanan dan manajemen data yang lebih baik.
@@ -248,10 +293,20 @@ IN (value1, value2, ...)
 ```
     
 **Contoh penggunaan `IN`:**
-    `SELECT name FROM Employees WHERE department_id IN (101, 103);`
+```SQL
+SELECT name 
+FROM Employees 
+WHERE department_id 
+IN (101, 103)
+```
     
 - Misalkan kita ingin memilih karyawan yang bekerja di departemen HR atau Sales.
-    `SELECT name FROM Employees WHERE department_id IN (101, 103);`
+```SQL
+SELECT name 
+FROM Employees 
+WHERE department_id 
+IN (101, 103)
+```
     
 ## 7) EXISTS
 ### Pengertian EXISTS:
@@ -267,19 +322,48 @@ WHERE EXISTS (subquery)
 ```
     
 **Contoh penggunaan `EXISTS`:**
-    `SELECT name FROM Employees e WHERE EXISTS (   SELECT 1   FROM Departments d   WHERE e.department_id = d.department_id   AND d.department_name = 'HR' );`
+```SQL
+SELECT name 
+FROM Employees e 
+WHERE EXISTS (SELECT 1
+			  FROM Departments d
+			  WHERE e.department_id = d.department_id
+			  AND d.department_name = 'HR' )
+```
     
 **Contoh Penggunaan EXISTS:**
 - Misalkan kita ingin memilih karyawan yang bekerja di departemen yang memiliki nama 'HR'.
-    `SELECT name FROM Employees e WHERE EXISTS (   SELECT 1   FROM Departments d   WHERE e.department_id = d.department_id   AND d.department_name = 'HR' );`
+```SQL
+SELECT name 
+FROM Employees e 
+WHERE EXISTS (SELECT 1
+			  FROM Departments d
+			  WHERE e.department_id = d.department_id
+			  AND d.department_name = 'HR' )
+```
+    
 ![Pasted image 20240704111419.png](/img/user/Pasted%20image%2020240704111419.png)
 1. **Query dengan IN:**
     - Pilih nama karyawan yang bekerja di departemen HR atau Sales.
-        `SELECT name FROM Employees WHERE department_id IN (101, 103);`
+```SQL
+SELECT name 
+FROM Employees 
+WHERE department_id 
+IN (101, 103)
+```
+    
 ![Pasted image 20240704111601.png](/img/user/Pasted%20image%2020240704111601.png)
-2. **Query dengan EXISTS:**
+1. **Query dengan EXISTS:**
 	- Pilih nama karyawan yang bekerja di departemen dengan nama 'HR'.
-	    `SELECT name FROM Employees e WHERE EXISTS (   SELECT 1   FROM Departments d   WHERE e.department_id = d.department_id   AND d.department_name = 'HR' );`
+```SQL
+SELECT name 
+FROM Employees e 
+WHERE EXISTS (SELECT 1
+			  FROM Departments d
+			  WHERE e.department_id = d.department_id
+			  AND d.department_name = 'HR' )
+```
+	    
 ![Pasted image 20240704111822.png](/img/user/Pasted%20image%2020240704111822.png)
 Gambar tersebut menunjukkan bagaimana perintah `IN` dan `EXISTS` digunakan untuk memfilter data dari tabel `Employees` berdasarkan kondisi yang diberikan. Dengan menggunakan `IN`, kita dapat memilih karyawan dari beberapa departemen tertentu, sedangkan `EXISTS` memungkinkan kita untuk memilih karyawan berdasarkan kondisi yang ada dalam subquery.
 
@@ -314,7 +398,7 @@ Misalkan kita memiliki dua tabel: `Employees` dan `Departments`.
 
 Untuk menemukan nama-nama pegawai dengan gaji di atas rata-rata gaji, kita bisa menggunakan subquery:
 ```SQL
-SELECT Name 
+SELECT Name
 FROM Employees 
 WHERE Salary > (SELECT AVG(Salary) FROM Employees)
 ```
@@ -324,8 +408,8 @@ WHERE Salary > (SELECT AVG(Salary) FROM Employees)
 ```SQL
 SELECT DepartmentName 
 FROM Departments 
-WHERE DepartmentID = (SELECT DepartmentID 
-					  FROM Employees                       
+WHERE DepartmentID = (SELECT DepartmentID
+					  FROM Employees
 					  WHERE Salary = (SELECT MAX(Salary) 
 									  FROM Employees)
 					  )
@@ -354,9 +438,9 @@ Dalam contoh ini, subquery `SELECT MAX(Salary) FROM Employees` mengembalikan sat
 ```SQL
 SELECT Name 
 FROM Employees 
-WHERE DepartmentID IN (SELECT DepartmentID                        
-					   FROM Employees                        
-					   GROUP BY DepartmentID                        
+WHERE DepartmentID IN (SELECT DepartmentID
+					   FROM Employees
+					   GROUP BY DepartmentID
 					   HAVING COUNT(*) > 1
 					   )
 ```
@@ -581,9 +665,10 @@ JOIN Customers c ON s.CustomerID = c.CustomerID;
 ```
 Gambar ini menunjukkan bagaimana data dari berbagai tabel sumber (Penjualan, Produk, Pelanggan) diekstrak, diubah, dan dimuat ke dalam tabel data warehouse untuk analisis lebih lanjut. Data warehouse memungkinkan perusahaan untuk menganalisis data historis dari berbagai perspektif untuk mendukung pengambilan keputusan bisnis yang lebih baik.
 
-##### Contoh Kasus:
+ **Contoh Kasus:**
 <p align="justify">Perusahaan ritel multinasional, ShopMax, mengalami kesulitan dalam mengelola dan menganalisis data dari berbagai cabang di seluruh dunia. Data penjualan, inventaris, dan pelanggan tersebar di berbagai sistem basis data yang berbeda, membuat analisis terpadu menjadi sangat sulit. ShopMax memutuskan untuk membangun data warehouse guna mengintegrasikan data dari semua cabang dan sistem operasional, memungkinkan analisis yang lebih efektif dan pengambilan keputusan yang lebih baik.</p>
-##### Esai Mengenai Data Warehouse:
+ 
+ **Esai Mengenai Data Warehouse:**
 
 <center>Pentingnya Data Warehouse dalam Analisis Bisnis</center>
 <p align="justify">
