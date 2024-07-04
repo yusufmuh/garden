@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:23:33.881+07:00","updated":"2024-07-04T13:27:11.175+07:00"}
+{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:23:33.881+07:00","updated":"2024-07-04T13:39:18.999+07:00"}
 ---
 
 ```widgets
@@ -10,17 +10,13 @@ to: 2024-07-01 11:09:20
 ---
 # 🗄SQL SERVER
 ---
-#UTS_Database
-#1_Introduction_to_Databases_and_The_Relational_Model 
-#2_Normalization
-#3_ER_Modelling 
-#4_Enhanced_ER_Modelling 
-#5_SQL_Data_Definition_Introduction_to_Views 
-#6_SQL_Data_Manipulation_Basic_Queries_1 
-#7_SQL_Data_Manipulation_Basic_Queries_2
+# UTS
+![WhatsApp Image 2024-04-25 at 13.40.31 (1).jpeg](/img/user/WhatsApp%20Image%202024-04-25%20at%2013.40.31%20(1).jpeg)![WhatsApp Image 2024-04-25 at 13.40.31.jpeg](/img/user/WhatsApp%20Image%202024-04-25%20at%2013.40.31.jpeg)
+#UTS_Database #1_Introduction_to_Databases_and_The_Relational_Model #2_Normalization #3_ER_Modelling #4_Enhanced_ER_Modelling #5_SQL_Data_Definition_Introduction_to_Views #6_SQL_Data_Manipulation_Basic_Queries_1 #7_SQL_Data_Manipulation_Basic_Queries_2
 
 ---
 ---
+![WhatsApp Image 2024-07-03 at 21.01.01.jpeg](/img/user/WhatsApp%20Image%202024-07-03%20at%2021.01.01.jpeg)
 #UAS_Database 
 #8_SQL_Data_Manipulation_Multi_Table_Queries 
 #9_Security_and_Administration
