@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:23:33.881+07:00","updated":"2024-07-04T13:02:09.126+07:00"}
+{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:23:33.881+07:00","updated":"2024-07-04T13:27:11.175+07:00"}
 ---
 
 ```widgets
@@ -9,6 +9,8 @@ to: 2024-07-01 11:09:20
 ```
 ---
 # 🗄SQL SERVER
+---
+#UTS_Database
 #1_Introduction_to_Databases_and_The_Relational_Model 
 #2_Normalization
 #3_ER_Modelling 
@@ -18,9 +20,19 @@ to: 2024-07-01 11:09:20
 #7_SQL_Data_Manipulation_Basic_Queries_2
 
 ---
-#UAS 
-
+---
+#UAS_Database 
+#8_SQL_Data_Manipulation_Multi_Table_Queries 
+#9_Security_and_Administration
+#10_SQL_Data_Manipulation_Sub_Queries_and_View
+#12_Database_Environment_Architectures
+#13_Data_Warehousing_Concepts
 # SQL COMMAND
+---
+#8_SQL_Data_Manipulation_Multi_Table_Queries  #UAS_Database 
+![[S 8_6 Lab SQL Data Manipulation (Multi table Queries).ppt]]
+
+---
 ## **1) JOIN :**
 ### PENGERTIAN 
 - JOIN adalah perintah dalam SQL yang digunakan untuk **menggabungkan baris dari dua atau lebih tabel berdasarkan kondisi tertentu.**
@@ -102,6 +114,11 @@ SELECT manager_id FROM Managers;
 - EXCEPT vs. NOT IN :
     `SELECT columns FROM table1 WHERE common_column NOT IN (SELECT common_column FROM table2);`
 
+---
+#9_Security_and_Administration #UAS_Database
+![[S 9_10 Lab Security and Administration.ppt]]
+
+---
 ## **3) GRANT :**
 ### Pengertian GRANT:
 - GRANT adalah perintah dalam SQL yang digunakan untuk **memberikan izin (privileges) kepada pengguna** atau **peran (role) untuk melakukan tindakan tertentu** pada objek basis data seperti tabel, pandangan (view), prosedur tersimpan (stored procedure), dan lain-lain.
@@ -163,6 +180,11 @@ REVOKE INSERT ON Employees
 FROM john_doe;
 ```
 
+---
+#10_SQL_Data_Manipulation_Sub_Queries_and_View #11_DATABASE_ENVIRONMENT #UAS_Database 
+![[S 10_8+9 SQL Data Manipulation (Sub Queries) and View.ppt]]
+
+---
 ## 5) VIEW
 ### Pengertian VIEW:
 - VIEW adalah objek basis data yang **menyajikan hasil query sebagai tabel virtual**.
@@ -237,7 +259,7 @@ IN (value1, value2, ...)
     
 ## 7) EXISTS
 ### Pengertian EXISTS:
-- Perintah `EXISTS` digunakan untuk memeriksa apakah subquery mengembalikan hasil. Jika subquery mengembalikan satu atau lebih baris, perintah `EXISTS` akan mengembalikan nilai TRUE.
+- Perintah `EXISTS` digunakan untuk **memeriksa** apakah **subquery** mengembalikan hasil. Jika subquery mengembalikan satu atau lebih baris, perintah `EXISTS` akan mengembalikan nilai TRUE.
 - Biasanya digunakan dalam klausa `WHERE` untuk memfilter baris berdasarkan adanya baris dalam subquery.
 
 ### Sintaks EXISTS:
@@ -417,6 +439,10 @@ Ini membantu perusahaan untuk mengetahui produk mana yang paling laris dan mungk
 Dengan menggunakan agregasi, perusahaan dapat membuat keputusan yang lebih informasi mengenai pengelolaan inventaris, penjadwalan karyawan, dan strategi pemasaran, yang pada akhirnya meningkatkan efisiensi dan keuntungan.
 
 ---
+#12_Database_Environment_Architectures #UAS_Database 
+![[S 12 Database Environment & Architectures.ppt]]
+![[S 12 Lab Project.pptx]]
+
 ---
 # **DBMS Architecture:**
 ### Pengertian Arsitektur DBMS:
@@ -461,10 +487,11 @@ Dengan menggunakan agregasi, perusahaan dapat membuat keputusan yang lebih infor
     - Klien, aplikasi, dan basis data berada di lapisan yang berbeda.
     - Aplikasi di middle-tier mengelola logika bisnis dan komunikasi antara klien dan server basis data.
 
-##### **Contoh Kasus:**
+##### Contoh Kasus:
 <p align="justify">Sebuah perusahaan e-commerce, ShopEase, berencana untuk meningkatkan sistem basis data mereka untuk mendukung peningkatan jumlah pelanggan dan transaksi harian. Saat ini, ShopEase menggunakan arsitektur DBMS dua tingkat (two-tier) di mana aplikasi klien langsung berkomunikasi dengan server basis data. Namun, dengan pertumbuhan bisnis yang pesat, mereka menghadapi masalah seperti kinerja yang lambat dan kesulitan dalam mengelola transaksi yang meningkat secara drastis. Oleh karena itu, mereka mempertimbangkan untuk beralih ke arsitektur tiga tingkat (three-tier) untuk meningkatkan efisiensi, skalabilitas, dan keamanan sistem mereka.</p>
 
-##### **Esai Mengenai Arsitektur DBMS:**
+##### Esai Mengenai Arsitektur DBMS:
+
 <p align="justify">Arsitektur DBMS memainkan peran penting dalam menentukan efisiensi, skalabilitas, dan keamanan sistem basis data. Ada beberapa model arsitektur yang dapat dipilih oleh organisasi berdasarkan kebutuhan mereka, yaitu arsitektur satu tingkat (single-tier), dua tingkat (two-tier), dan tiga tingkat (three-tier).
 
 Pada arsitektur satu tingkat, basis data dan aplikasi berada dalam satu sistem. Model ini sederhana dan cocok untuk aplikasi kecil atau pengembangan dan pengujian, tetapi tidak skalabel dan memiliki keterbatasan dalam hal keamanan dan manajemen.
@@ -485,21 +512,24 @@ Secara keseluruhan, pemilihan arsitektur DBMS yang tepat sangat penting untuk me
 - **Arsitektur tiga tingkat dianggap lebih skalabel dibandingkan arsitektur dua tingkat karena:**
     - **Pemrosesan Terdistribusi:** Middle-tier dapat mendistribusikan beban kerja pemrosesan logika bisnis, mengurangi beban pada klien dan server basis data.
     - **Keseimbangan Beban:** Middle-tier memungkinkan penyeimbangan beban yang lebih baik, sehingga lebih mudah menambah server aplikasi sesuai kebutuhan untuk menangani peningkatan jumlah pengguna dan permintaan.
-    - 
+    
 - **Dalam konteks keamanan, arsitektur tiga tingkat dapat memberikan perlindungan yang lebih baik dibandingkan arsitektur dua tingkat karena:**
     - **Isolasi Data:** Middle-tier berfungsi sebagai penghalang antara klien dan server basis data, sehingga data sensitif tidak langsung terekspos ke klien.
     - **Keamanan Tambahan:** Middle-tier dapat menerapkan lapisan keamanan tambahan seperti autentikasi, otorisasi, dan enkripsi data sebelum mengirimkan data ke dan dari server basis data.
-    - 
+    
 - **Contoh kasus di mana arsitektur satu tingkat masih dapat digunakan dengan efektif:**
     - Pengembangan dan pengujian aplikasi kecil di mana kompleksitas dan jumlah pengguna rendah.
     - Aplikasi desktop tunggal yang tidak memerlukan akses jaringan atau skalabilitas yang tinggi.
-    - 
+    
 - **Keuntungan menggunakan middle-tier dalam arsitektur tiga tingkat:**
     - **Isolasi Logika Bisnis:** Memisahkan logika bisnis dari klien dan server basis data, meningkatkan modularitas dan pemeliharaan.
     - **Pengelolaan Transaksi:** Middle-tier dapat mengelola transaksi secara efisien, memastikan konsistensi data dan integritas transaksi.
     - **Peningkatan Keamanan:** Menyediakan lapisan keamanan tambahan untuk melindungi data sensitif dan mengelola autentikasi dan otorisasi pengguna.
-    - 
+    
 ---
+#13_Data_Warehousing_Concepts #UAS_Database 
+![[S 13 Data Warehousing Concept.ppt]]
+
 ---
 # DATA WAREHOUSE
 ### Pengertian Data Warehouse:
@@ -555,9 +585,10 @@ JOIN Customers c ON s.CustomerID = c.CustomerID;
 ```
 Gambar ini menunjukkan bagaimana data dari berbagai tabel sumber (Penjualan, Produk, Pelanggan) diekstrak, diubah, dan dimuat ke dalam tabel data warehouse untuk analisis lebih lanjut. Data warehouse memungkinkan perusahaan untuk menganalisis data historis dari berbagai perspektif untuk mendukung pengambilan keputusan bisnis yang lebih baik.
 
-##### **Contoh Kasus:**
+##### Contoh Kasus:
 <p align="justify">Perusahaan ritel multinasional, ShopMax, mengalami kesulitan dalam mengelola dan menganalisis data dari berbagai cabang di seluruh dunia. Data penjualan, inventaris, dan pelanggan tersebar di berbagai sistem basis data yang berbeda, membuat analisis terpadu menjadi sangat sulit. ShopMax memutuskan untuk membangun data warehouse guna mengintegrasikan data dari semua cabang dan sistem operasional, memungkinkan analisis yang lebih efektif dan pengambilan keputusan yang lebih baik.</p>
-##### **Esai Mengenai Data Warehouse:**
+##### Esai Mengenai Data Warehouse:
+
 <center>Pentingnya Data Warehouse dalam Analisis Bisnis</center>
 <p align="justify">
 Dalam era digital ini, data menjadi aset yang sangat berharga bagi perusahaan. Namun, data yang tersebar di berbagai sistem dan lokasi dapat menjadi tantangan besar dalam analisis dan pengambilan keputusan. Di sinilah peran data warehouse menjadi sangat penting. Data warehouse adalah sistem basis data yang dirancang khusus untuk analisis dan pelaporan, yang mengintegrasikan data dari berbagai sumber untuk memberikan pandangan holistik tentang kinerja bisnis.
@@ -578,49 +609,29 @@ Secara keseluruhan, data warehouse adalah alat yang sangat kuat dalam mengelola 
         - **Satu Tingkat (Single-tier):** Basis data dan aplikasi berada dalam satu sistem. Sederhana dan cocok untuk aplikasi kecil atau pengembangan, tetapi tidak skalabel dan kurang aman.
         - **Dua Tingkat (Two-tier):** Klien langsung berkomunikasi dengan server basis data. Klien menjalankan aplikasi dan mengirim permintaan ke server. Lebih efisien daripada satu tingkat tetapi memiliki keterbatasan dalam menangani banyak pengguna dan transaksi kompleks.
         - **Tiga Tingkat (Three-tier):** Memisahkan antarmuka pengguna, logika aplikasi, dan penyimpanan data ke dalam tiga lapisan terpisah. Lebih skalabel, mudah dipelihara, dan menawarkan keamanan yang lebih baik karena logika aplikasi dikelola di middle-tier.
-        - 
+        
 2. **Mengapa arsitektur tiga tingkat dianggap lebih skalabel dibandingkan arsitektur dua tingkat? Berikan dua alasan.**
     - **Jawaban:**
         - **Pemrosesan Terdistribusi:** Middle-tier dapat mendistribusikan beban kerja pemrosesan logika bisnis, mengurangi beban pada klien dan server basis data.
         - **Keseimbangan Beban:** Middle-tier memungkinkan penyeimbangan beban yang lebih baik, sehingga lebih mudah menambah server aplikasi sesuai kebutuhan untuk menangani peningkatan jumlah pengguna dan permintaan.
-        - 
+        
 3. **Dalam konteks keamanan, bagaimana arsitektur tiga tingkat dapat memberikan perlindungan yang lebih baik dibandingkan arsitektur dua tingkat?**
     - **Jawaban:**
         - **Isolasi Data:** Middle-tier berfungsi sebagai penghalang antara klien dan server basis data, sehingga data sensitif tidak langsung terekspos ke klien.
         - **Keamanan Tambahan:** Middle-tier dapat menerapkan lapisan keamanan tambahan seperti autentikasi, otorisasi, dan enkripsi data sebelum mengirimkan data ke dan dari server basis data.
-        - 
+        
 4. **Berikan contoh kasus di mana arsitektur satu tingkat masih dapat digunakan dengan efektif.**
     - **Jawaban:**
         - Pengembangan dan pengujian aplikasi kecil di mana kompleksitas dan jumlah pengguna rendah.
         - Aplikasi desktop tunggal yang tidak memerlukan akses jaringan atau skalabilitas yang tinggi.
-        - 
+        
 5. **Apa keuntungan menggunakan middle-tier dalam arsitektur tiga tingkat? Sebutkan tiga keuntungan utama.**
     - **Jawaban:**
         - **Isolasi Logika Bisnis:** Memisahkan logika bisnis dari klien dan server basis data, meningkatkan modularitas dan pemeliharaan.
         - **Pengelolaan Transaksi:** Middle-tier dapat mengelola transaksi secara efisien, memastikan konsistensi data dan integritas transaksi.
         - **Peningkatan Keamanan:** Menyediakan lapisan keamanan tambahan untuk melindungi data sensitif dan mengelola autentikasi dan otorisasi pengguna.
-        - 
+        
 ---
 ---
+#UAS_Database 
 
-## SQL Server Management
-
-
-#8_SQL_Data_Manipulation_Multi_Table_Queries 
-#9_Security_and_Administration
-#10_SQL_Data_Manipulation_Sub_Queries_and_View 
-#11_DATABASE_ENVIRONMENT 
-#12_Database_Environment_Architectures 
-#13_Data_Warehousing_Concepts
-
-## EXECPT
-## GRANT
-## REVOKE
-## VIEW
-## IN
-## EXISTS
-### SUB QUERY
-### AGREGATION
-Represents a "has-a"
-## DBMS Architectures
-## DATA WAREHOUSE
