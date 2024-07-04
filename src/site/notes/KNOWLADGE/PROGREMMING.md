@@ -1,5 +1,5 @@
 ---
-{"sticker":"lucide//code-2","dg-publish":true,"aliases":["JAVA"],"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-03T04:48:59.709+07:00"}
+{"sticker":"lucide//code-2","dg-publish":true,"aliases":["JAVA"],"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-03T05:01:43.974+07:00"}
 ---
 
 ```widgets
@@ -8,10 +8,11 @@ date: 2024-07-03 13:00:00
 to: 2024-07-01 11:10:50
 ```
 ---
+# Java DASAR
+![[Java Dasar.pptx]]
 
-
-
-
+# Java OOP
+![[Java Object Oriented Programming.pptx]]
 
 # ☕ JAVA
 #UAS 
@@ -625,7 +626,7 @@ Dengan program ini, Anda dapat menghitung nilai akhir dan menentukan grade mahas
 
 ---
 #8_Iteration_Statement 
-1. What are the differences between a while loop and a do-while loop? Convert the following while loop into a do-while loop.
+1. What are the differences between a **while loop** and a **do-while loop**? Convert the following while loop into a do-while loop.
 ![Pasted image 20240702150949.png](/img/user/Pasted%20image%2020240702150949.png)
 
 ```java
@@ -662,7 +663,7 @@ while (i < 10) {
 - **Potongan Kode 2:** Mencetak bilangan genap dari 1 sampai 9, namun nilai `i` dicetak sebelum diincrement (sehingga menghasilkan bilangan ganjil setelah increment).
 - **Potongan Kode 3:** Mencetak nilai `i` setelah diincrement jika nilai awal `i` adalah genap, sehingga mencetak bilangan ganjil dari 2 sampai 10.
 
-2. Do the following two loops result in the same value in sum?
+2. Do the following two loops result in the **same value in sum**?
 ![Pasted image 20240702150934.png](/img/user/Pasted%20image%2020240702150934.png)
 Ya, kedua loop menghasilkan nilai yang sama untuk variabel `sum`.
 ```java
