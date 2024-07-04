@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:23:33.881+07:00","updated":"2024-07-04T13:45:59.867+07:00"}
+{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:23:33.881+07:00","updated":"2024-07-04T13:50:37.307+07:00"}
 ---
 
 ```widgets
@@ -16,11 +16,12 @@ to: 2024-07-01 11:09:20
 
 ---
 ---
+# UAS
 ![WhatsApp Image 2024-07-03 at 21.01.01.jpeg](/img/user/WhatsApp%20Image%202024-07-03%20at%2021.01.01.jpeg)
 #UAS_Database 
-# SQL COMMAND
+## SQL COMMAND
 #8_SQL_Data_Manipulation_Multi_Table_Queries #9_Security_and_Administration #10_SQL_Data_Manipulation_Sub_Queries_and_View
-# DATABASE ARCH + WAREHOUSE
+## DATABASE ARCH + WAREHOUSE
 #12_Database_Environment_Architectures #13_Data_Warehousing_Concepts
 
 ---
