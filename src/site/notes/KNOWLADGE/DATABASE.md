@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:23:33.881+07:00","updated":"2024-07-04T13:39:18.999+07:00"}
+{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:23:33.881+07:00","updated":"2024-07-04T13:45:59.867+07:00"}
 ---
 
 ```widgets
@@ -18,12 +18,11 @@ to: 2024-07-01 11:09:20
 ---
 ![WhatsApp Image 2024-07-03 at 21.01.01.jpeg](/img/user/WhatsApp%20Image%202024-07-03%20at%2021.01.01.jpeg)
 #UAS_Database 
-#8_SQL_Data_Manipulation_Multi_Table_Queries 
-#9_Security_and_Administration
-#10_SQL_Data_Manipulation_Sub_Queries_and_View
-#12_Database_Environment_Architectures
-#13_Data_Warehousing_Concepts
 # SQL COMMAND
+#8_SQL_Data_Manipulation_Multi_Table_Queries #9_Security_and_Administration #10_SQL_Data_Manipulation_Sub_Queries_and_View
+# DATABASE ARCH + WAREHOUSE
+#12_Database_Environment_Architectures #13_Data_Warehousing_Concepts
+
 ---
 #8_SQL_Data_Manipulation_Multi_Table_Queries  #UAS_Database 
 ![[S 8_6 Lab SQL Data Manipulation (Multi table Queries).ppt]]
