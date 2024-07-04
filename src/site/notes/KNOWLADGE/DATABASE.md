@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":false,"aliases":["SQL"],"permalink":"/knowladge/database/","dgPassFrontmatter":true,"noteIcon":""}
+{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":false,"aliases":["SQL"],"_links":true,"permalink":"/knowladge/database/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ```widgets

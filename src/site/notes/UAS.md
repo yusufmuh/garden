@@ -1,5 +1,5 @@
 ---
-{"dg-home":true,"dg-publish":true,"permalink":"/uas/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":""}
+{"dg-home":true,"dg-publish":true,"_links":true,"permalink":"/uas/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
