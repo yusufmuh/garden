@@ -482,3 +482,5 @@ Pidato yang baik ditandai oleh: 
 7. Bahasanya disampaikan secara **santun, rendah hati, dan bersahabat**
 ---
 ---
+
+[[UAS\|UAS]]

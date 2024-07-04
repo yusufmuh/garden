@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":""}
+{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":false,"aliases":["SQL"],"permalink":"/knowladge/database/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ```widgets
@@ -716,3 +716,4 @@ Secara keseluruhan, data warehouse adalah alat yang sangat kuat dalam mengelola 
 ---
 #UAS_Database 
 
+[[UAS\|UAS]]
