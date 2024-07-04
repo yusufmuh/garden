@@ -1,5 +1,5 @@
 ---
-{"sticker":"lucide//code-2","dg-publish":true,"aliases":["JAVA"],"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:39:34.708+07:00","updated":"2024-07-03T05:01:43.974+07:00"}
+{"sticker":"lucide//code-2","dg-publish":true,"aliases":["JAVA"],"permalink":"/knowladge/progremming/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ```widgets

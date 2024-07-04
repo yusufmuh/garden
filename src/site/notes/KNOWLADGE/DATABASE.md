@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2024-06-13T14:23:33.881+07:00","updated":"2024-07-04T13:50:37.307+07:00"}
+{"sticker":"emoji//1f4c5","dg-publish":true,"dg-home":true,"aliases":["SQL"],"permalink":"/knowladge/database/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ```widgets
