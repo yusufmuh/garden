@@ -550,9 +550,9 @@ Dengan menggunakan agregasi, perusahaan dapat membuat keputusan yang lebih infor
 
 ### Model Arsitektur DBMS:
 - **Satu Tingkat (Single-tier):**
-    - Basis data dan aplikasi berada di dalam satu sistem.
+    - Basis data dan aplikasi berada **di dalam satu sistem**.
 - **Dua Tingkat (Two-tier):**
-    - Klien dan server berinteraksi secara langsung.
+    - Klien dan server berinteraksi secara **langsung**.
     - Klien menjalankan aplikasi, sedangkan server menjalankan DBMS.
 - **Tiga Tingkat (Three-tier):**
     - Terdiri dari lapisan presentasi (client), lapisan aplikasi (middle-tier), dan lapisan data (server).
