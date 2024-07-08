@@ -717,3 +717,160 @@ Secara keseluruhan, data warehouse adalah alat yang sangat kuat dalam mengelola 
 #UAS_Database 
 
 [[UAS\|UAS]]
+
+---
+# REVIEW SOAL
+### Contoh Soal Ujian Akhir dan Kunci Jawabannya
+
+**Materi yang Diujikan:**
+- Manipulasi Data dengan SQL (Multi-Table Queries)
+- Arsitektur Database
+- Data Warehousing
+- Subqueries dan Views
+- Keamanan dan Administrasi Basis Data
+
+#### Soal 1: Join dan Subqueries
+Diberikan tabel berikut:
+
+**Tabel Client:**
+
+| clientNo | fName | lName |
+|----------|-------|-------|
+| C001     | John  | Doe   |
+| C002     | Jane  | Smith |
+
+**Tabel Viewing:**
+
+| clientNo | propertyNo | comment    |
+|----------|------------|------------|
+| C001     | P001       | Interested |
+| C003     | P002       | Not Sure   |
+
+**Tabel PropertyForRent:**
+
+| propertyNo | pCity         | rent |
+|------------|---------------|------|
+| P001       | New York      | 1500 |
+| P002       | San Francisco | 2000 |
+| P003       | Los Angeles   | 1800 |
+
+**Tabel Staff:**
+
+| staffNo | fName  | lName  | branchNo |
+|---------|--------|--------|----------|
+| S001    | Alice  | Brown  | B001     |
+| S002    | Bob    | Johnson| B002     |
+| S003    | Charlie| Davis  | B003     |
+
+**Tabel Branch:**
+
+| branchNo | bCity         |
+|----------|---------------|
+| B001     | New York      |
+| B002     | Los Angeles   |
+| B003     | San Francisco |
+
+1. Buat query untuk menampilkan nama semua klien yang telah melihat properti beserta komentarnya.
+
+2. Buat query untuk menampilkan cabang dan properti yang ada di kota yang sama, serta cabang yang tidak memiliki kecocokan.
+
+3. Buat query untuk menampilkan semua kota yang memiliki kantor cabang atau properti.
+
+4. Buat subquery untuk menampilkan staff yang bekerja di cabang di kota 'New York'.
+
+#### Kunci Jawaban:
+1. **Inner Join:**
+
+```sql
+SELECT c.clientNo, c.fName, c.lName, v.propertyNo, v.comment
+FROM Client c
+INNER JOIN Viewing v ON c.clientNo = v.clientNo;
+```
+
+**Hasil:**
+
+| clientNo | fName | lName | propertyNo | comment    |
+|----------|-------|-------|------------|------------|
+| C001     | John  | Doe   | P001       | Interested |
+
+2. **Left Outer Join:**
+
+```sql
+SELECT b.branchNo, b.bCity, p.propertyNo, p.pCity, p.rent
+FROM Branch b
+LEFT JOIN PropertyForRent p ON b.bCity = p.pCity;
+```
+
+**Hasil:**
+
+| branchNo | bCity         | propertyNo | pCity         | rent |
+|----------|---------------|------------|---------------|------|
+| B001     | New York      | P001       | New York      | 1500 |
+| B002     | Los Angeles   | P003       | Los Angeles   | 1800 |
+| B003     | San Francisco | P002       | San Francisco | 2000 |
+
+3. **UNION:**
+
+```sql
+(SELECT bCity AS city FROM Branch)
+UNION
+(SELECT pCity AS city FROM PropertyForRent);
+```
+
+**Hasil:**
+
+| city          |
+|---------------|
+| New York      |
+| Los Angeles   |
+| San Francisco |
+
+4. **Subquery:**
+
+```sql
+SELECT staffNo, fName, lName
+FROM Staff
+WHERE branchNo = (SELECT branchNo FROM Branch WHERE bCity = 'New York');
+```
+
+**Hasil:**
+
+| staffNo | fName | lName  |
+|---------|-------|--------|
+| S001    | Alice | Brown  |
+
+---
+#### Soal 2: Arsitektur Database
+1. Jelaskan tiga tingkat arsitektur basis data ANSI-SPARC dan berikan contoh sederhana untuk masing-masing tingkat.
+
+**Kunci Jawaban:**
+1. **Tingkat Eksternal:**
+   - Pandangan pengguna tentang basis data. Misalnya, pandangan mahasiswa yang hanya melihat nomor mahasiswa, nama, dan email.
+   - Contoh: `SELECT StudentNumber, SName, SEMail FROM Student;`
+
+2. **Tingkat Konseptual:**
+   - Pandangan komunitas tentang basis data. Misalnya, tabel mahasiswa yang mencakup detail lengkap seperti alamat.
+   - Contoh: `CREATE TABLE Student (StudentNumber CHAR(10) PRIMARY KEY, SName VARCHAR(50) NOT NULL, SAddress VARCHAR(50), SEMail VARCHAR(30));`
+
+3. **Tingkat Internal:**
+   - Representasi fisik dari basis data di komputer. Misalnya, bagaimana tabel mahasiswa disimpan secara fisik.
+   - Contoh: Implementasi fisik dari tabel `Student` dalam sistem basis data.
+---
+#### Soal 3: Data Warehousing
+1. Apa yang dimaksud dengan ETL dalam konteks data warehousing? Jelaskan setiap tahapannya.
+
+**Kunci Jawaban:**
+1. **ETL (Extract, Transform, Load):**
+   - **Extract:** Mengambil data dari berbagai sumber.
+   - **Transform:** Mengubah data ke dalam format yang sesuai untuk analisis.
+   - **Load:** Memuat data ke dalam data warehouse.
+---
+#### Soal 4: Keamanan dan Administrasi Basis Data
+1. Jelaskan perbedaan antara GRANT dan REVOKE dalam SQL. Berikan contoh penggunaannya.
+
+**Kunci Jawaban:**
+1. **GRANT:** Digunakan untuk memberikan hak akses kepada pengguna.
+   - Contoh: `GRANT SELECT, INSERT ON pegawai TO user1;`
+   
+2. **REVOKE:** Digunakan untuk mencabut hak akses yang telah diberikan kepada pengguna.
+   - Contoh: `REVOKE INSERT ON pegawai FROM user1;`
