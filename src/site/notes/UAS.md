@@ -8,8 +8,8 @@
 ---
 [[UAS\|UAS]]
 # DATABASE
-1. [LATIHAN DATABASE](LATIHAN)
-2. [DATABASE INTI](DATABASE)
+1. [[LATIHAN\|LATIHAN]]
+2. [[KNOWLADGE/DATABASE\|DATABASE]]
 3. [[KNOWLADGE/MATERI/SQL/13. Data Warehousing Concepts\|13. Data Warehousing Concepts]]
 4. [[KNOWLADGE/MATERI/SQL/12. Database Environment & Architectures\|12. Database Environment & Architectures]]
 5. [[KNOWLADGE/MATERI/SQL/11. DATABASE ENVIRONMENT\|11. DATABASE ENVIRONMENT]]
