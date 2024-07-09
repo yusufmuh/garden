@@ -1,5 +1,5 @@
 ---
-{"sticker":"emoji//1f624","dg-publish":true,"permalink":"/latihan/","dgPassFrontmatter":true,"noteIcon":""}
+{"sticker":"emoji//1f624","dg-publish":true,"dg_publish":true,"permalink":"/latihan/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 [DATABASE](DATABASE)
