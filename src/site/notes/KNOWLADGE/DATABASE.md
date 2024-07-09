@@ -720,6 +720,7 @@ Secara keseluruhan, data warehouse adalah alat yang sangat kuat dalam mengelola 
 
 ---
 # REVIEW SOAL
+[LATIHAN](LATIHAN)
 ### Contoh Soal Ujian Akhir dan Kunci Jawabannya
 
 **Materi yang Diujikan:**
