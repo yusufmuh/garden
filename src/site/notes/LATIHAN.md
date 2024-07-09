@@ -169,14 +169,13 @@ SELECT branchNo, AVG(salary) AS avgSalary
 FROM Staff
 GROUP BY branchNo;
 ```
-
+---
+---
 # Soal Esai:
-1. **Jelaskan konsep arsitektur tiga tingkat (Three-Level Architecture) dalam database berdasarkan model ANSI-SPARC. Berikan contoh sederhana untuk masing-masing tingkat.**
-
 ## Esai: DBMS Architecture
 
 **Pertanyaan:**
-1. Jelaskan konsep dasar dari arsitektur client-server dua tingkat (two-tier) dan tiga tingkat (three-tier) dalam DBMS. Apa kelebihan dan kekurangan dari masing-masing arsitektur tersebut?
+1. Jelaskan konsep dasar dari ***arsitektur client-server dua tingkat (two-tier) dan tiga tingkat (three-tier)*** dalam DBMS. Apa kelebihan dan kekurangan dari masing-masing arsitektur tersebut?
 
 **Kunci Jawaban:**
 1. **Arsitektur Client-Server Dua Tingkat:**
@@ -201,6 +200,57 @@ GROUP BY branchNo;
    - **Kekurangan:** 
      - Kompleksitas lebih tinggi dalam pengembangan dan pemeliharaan.
 
+
+**Pertanyaan:**
+1. Jelaskan konsep ***arsitektur tiga tingkat (Three-Level Architecture)*** dalam database berdasarkan model ***ANSI-SPARC***. Berikan contoh sederhana untuk masing-masing tingkat.
+**kunci jawaban:**
+Arsitektur tiga tingkat yang diusulkan oleh ANSI-SPARC adalah model standar untuk mengatur dan mengelola database. Arsitektur ini terdiri dari tiga tingkat utama: Tingkat Eksternal (External Level), Tingkat Konseptual (Conceptual Level), dan Tingkat Internal (Internal Level).
+#### 1. Tingkat Eksternal (External Level)
+- **Definisi**: Ini adalah pandangan pengguna tentang database. Setiap pengguna dapat memiliki pandangan yang berbeda dari database yang relevan dengan kebutuhannya. Pandangan ini disebut juga sebagai skema eksternal.
+- **Tujuan**: Untuk memberikan antarmuka yang sederhana dan relevan kepada pengguna dan untuk menjaga keamanan dengan membatasi akses ke data sensitif.
+- **Contoh**: Pandangan seorang mahasiswa yang hanya melihat data tertentu seperti Nomor Mahasiswa, Nama, dan Email.
+**Contoh Query:**
+```sql
+-- Membuat pandangan mahasiswa
+CREATE VIEW StudentView AS
+SELECT StudentNumber, SName, SEMail
+FROM Student;
+```
+
+#### 2. Tingkat Konseptual (Conceptual Level)
+- **Definisi**: Ini adalah pandangan komunitas tentang database. Tingkat ini menggambarkan data yang disimpan dalam database dan hubungan antara data tersebut. Ini adalah representasi logis dari keseluruhan struktur database.
+- **Tujuan**: Untuk menyatukan semua data dalam satu pandangan yang koheren, mengelola hubungan antar data, dan menjaga integritas data.
+- **Contoh**: Tabel mahasiswa yang mencakup detail lengkap seperti Nomor Mahasiswa, Nama, Alamat, dan Email.
+**Contoh Query:**
+```sql
+-- Membuat tabel mahasiswa dengan detail lengkap
+CREATE TABLE Student (
+    StudentNumber CHAR(10) PRIMARY KEY,
+    SName VARCHAR(50) NOT NULL,
+    SAddress VARCHAR(100),
+    SEMail VARCHAR(30)
+);
+```
+
+#### 3. Tingkat Internal (Internal Level)
+- **Definisi**: Ini adalah representasi fisik dari database pada komputer. Tingkat ini menggambarkan bagaimana data disimpan secara fisik dalam database, termasuk struktur penyimpanan, metode akses, dan indeks.
+- **Tujuan**: Untuk mengelola cara data benar-benar disimpan di media penyimpanan dan untuk mengoptimalkan kinerja akses data.
+- **Contoh**: Struktur fisik dari tabel `Student` seperti yang didefinisikan dalam sistem basis data.
+**Contoh Query:**
+```sql
+-- Implementasi fisik tabel mahasiswa
+-- Catatan: Ini biasanya diurus oleh DBMS dan administrator basis data.
+CREATE INDEX idx_student_sname ON Student (SName);
+```
+
+### Ringkasan
+- **Tingkat Eksternal**: Pandangan pengguna tentang database yang menyediakan antarmuka khusus dan akses terbatas.
+- **Tingkat Konseptual**: Pandangan logis dan keseluruhan tentang database yang menggambarkan semua data dan hubungan di antara mereka.
+- **Tingkat Internal**: Representasi fisik dari database yang mengelola penyimpanan dan pengambilan data.
+Arsitektur tiga tingkat ini membantu memastikan bahwa perubahan pada satu tingkat tidak mempengaruhi tingkat lainnya, memungkinkan fleksibilitas dan pemeliharaan yang lebih mudah. Misalnya, perubahan pada struktur fisik penyimpanan data (internal level) tidak akan mempengaruhi pandangan pengguna (external level) atau struktur logis data (conceptual level).
+
+---
+---
 ## Esai: Data Warehouse
 
 **Pertanyaan:**
